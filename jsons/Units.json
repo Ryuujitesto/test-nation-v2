@@ -4,14 +4,14 @@
 		"unitType": "Infantry",
 		"replaces": "Frontier Militia",
 		"uniqueTo": "Alliance of New Federation",
-		"movement": 4,
+		"movement": 5,
 		"strength": 12,
 		"cost": 50,
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units> <when attacking>",
                         "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
                         "[+25]% Strength <vs [Sniper] units> <when attacking>",
-                        "May withdraw before melee ([20]%)",
+                        "May withdraw before melee ([25]%)",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
@@ -40,6 +40,7 @@
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
                         "[+25]% Strength <vs [Sniper] units>",
+			"[+25]% Strength <with [25]% chance>",
                         "[+25]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
@@ -54,5 +55,36 @@
 				"Separator": true
 			},
 			{ "text": "More akin to a permanently-hired mercenary unit." }
+		]
+	},
+        {
+		"name": "Grenadier",
+		"unitType": "Sniper",
+		"uniqueTo": "Alliance of New Federatio",
+		"replaces": "Colony Marksman",
+		"range": 2,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 100,
+		"requiredTech": "Military Ballistics",
+		"uniques": [
+			"[+50]% Strength <vs [Armored] units> <when attacking>",
+                        "[+50]% Strength <vs [Mech] units> <when attacking>",
+                        "[+50]% Strength <vs [Helicopter] units> <when attacking>",
+			"Only available <if [Colonial Patrol Station] is constructed>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Blue Infantry","United Will"],
+		"attackSound": "ChargeExplosion",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Grenadier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "A more all-terrain sort of sniper." }
 		]
 	},
