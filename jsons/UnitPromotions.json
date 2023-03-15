@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Red Infantry",
+		"uniques": [
+                        "[+1] Sight",
+                        "[+1] Movement",
+                        "[+25]% Strength <when fighting in [Rough terrain] tiles>",
+			"Invisible to non-adjacent units <in [Jungle] tiles>",
+                        "Invisible to non-adjacent units <in [Forest] tiles>",
+                        "Invisible to non-adjacent units <in [Marsh] tiles>",
+                        "[+50]% XP gained from combat".
+		],
+		"row": 124,
+                "column": 0
+	},
+	{
+		"name": "Blue Infantry",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Open terrain] tiles>",
+                        "[+25]% Strength <when defending>",
+                        "[+5] HP when healing <in [Foreign Land] tiles>",
+                        "[+50]% XP gained from combat",
+                        "Damage is ignored when determining unit Strength".
+		],
+		"row": 125,
+                "column": 0
+	},
