@@ -33,7 +33,7 @@
                 "column": 0
 	},
 	{
-		"name": "Stealth Sensors mk 1",
+		"name": "Stealth Sensor mk 1",
 		"uniques": [
                          "Can see invisible [Land] units"	
 		],
@@ -41,12 +41,20 @@
                 "column": 0
 	},
 	{
-		"name": "Stealth Sensors mk 2",
+		"name": "Stealth Sensor mk 2",
+		"uniques": [
+                         "Can see invisible [Water] units"
+		],
+		"row": 128,
+                "column": 0
+	},
+	{
+		"name": "Stealth Sensor mk 3",
 		"uniques": [
                          "Can see invisible [Land] units",
 			 "Can see invisible [Water] units"
 		],
-		"row": 128,
+		"row": 129,
                 "column": 0
 	}
 ]
