@@ -11,11 +11,11 @@
                         "[+25]% Strength <vs [Infantry] units> <when attacking>",
                         "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
                         "[+25]% Strength <vs [Sniper] units> <when attacking>",
-                        "May withdraw before melee ([20]%)"
+                        "May withdraw before melee ([20]%)",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
-		"promotions": ["Red Infantry"],
+		"promotions": ["Red Infantry","United Will"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Rifleman",
@@ -40,10 +40,10 @@
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
                         "[+25]% Strength <vs [Sniper] units>",
-                        "[+25]% Strength <when defending>"
+                        "[+25]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Blue Infantry"],
+		"promotions": ["Blue Infantry","United Will"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
