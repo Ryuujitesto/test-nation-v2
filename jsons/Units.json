@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Rifleman",
+		"unitType": "Infantry",
+		"replaces": "Frontier Militia",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 12,
+		"cost": 50,
+		"uniques": [
+                        "[+25]% Strength <vs [Infantry] units> <when attacking>",
+                        "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
+                        "[+25]% Strength <vs [Sniper] units> <when attacking>",
+                        "May withdraw before melee ([20]%)"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"promotions": ["Red Infantry"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Rifleman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "Trained by African Union veterans, these militia forces are the first line of defense of local African Union colonies." }
+		]
+	},
+        {
+		"name": "Assault",
+		"unitType": "Infantry",
+		"uniqueTo": "Alliance of New Federatio",
+		"replaces": "Colony Rifleman",
+		"movement": 3,
+		"strength": 18,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armament",
+		"uniques": [
+                        "[+25]% Strength <vs [Infantry] units>",
+                        "[+25]% Strength <vs [Stealth Infantry] units>",
+                        "[+25]% Strength <vs [Sniper] units>",
+                        "[+25]% Strength <when defending>"
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Blue Infantry"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "More akin to a permanently-hired mercenary unit." }
+		]
+	},
