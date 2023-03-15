@@ -30,7 +30,7 @@
         {
 		"name": "Assault",
 		"unitType": "Infantry",
-		"uniqueTo": "Alliance of New Federatio",
+		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Colony Rifleman",
 		"movement": 3,
 		"strength": 18,
@@ -40,9 +40,8 @@
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
                         "[+25]% Strength <vs [Sniper] units>",
-			"[+25]% Strength <with [25]% chance>",
-                        "[+25]% Strength <when defending>",
-			"Never appears as a Barbarian unit"
+			"[+50]% Strength <with [25]% chance> <when attacking>",
+                        "Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blue Infantry","United Will"],
 		"attackSound": "machinegun",
@@ -60,7 +59,7 @@
         {
 		"name": "Grenadier",
 		"unitType": "Sniper",
-		"uniqueTo": "Alliance of New Federatio",
+		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Colony Marksman",
 		"range": 2,
 		"movement": 4,
@@ -69,9 +68,10 @@
 		"cost": 100,
 		"requiredTech": "Military Ballistics",
 		"uniques": [
-			"[+50]% Strength <vs [Armored] units> <when attacking>",
-                        "[+50]% Strength <vs [Mech] units> <when attacking>",
-                        "[+50]% Strength <vs [Helicopter] units> <when attacking>",
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
+                        "[+25]% Strength <vs [Mech] units> <when attacking>",
+                        "[+25]% Strength <vs [Helicopter] units> <when attacking>",
+			"[+25]% Strength <vs cities> <when attacking>",
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
@@ -91,14 +91,16 @@
         {
 		"name": "Fire Assault",
 		"unitType": "Infantry",
-		"uniqueTo": "Alliance of New Federatio",
+		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Exoframe Soldier",
 		"movement": 3,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
-			
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Stealth Infantry] units>",
+			"[+50]% Strength <vs [Sniper] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blue Infantry","Stealth Sensor MK 1"],
