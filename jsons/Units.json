@@ -64,8 +64,8 @@
 		"replaces": "Colony Marksman",
 		"range": 2,
 		"movement": 4,
-		"strength": 15,
-		"rangedStrength": 15,
+		"strength": 12,
+		"rangedStrength": 18,
 		"cost": 100,
 		"requiredTech": "Military Ballistics",
 		"uniques": [
@@ -86,5 +86,31 @@
 				"Separator": true
 			},
 			{ "text": "A more all-terrain sort of sniper." }
+		]
+	},
+        {
+		"name": "Fire Assault",
+		"unitType": "Infantry",
+		"uniqueTo": "Alliance of New Federatio",
+		"replaces": "Exoframe Soldier",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Blue Infantry","Stealth Sensor MK 1"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Exoframe Legionnaire",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "Their exoskeletons make them able to do what no other soldiers are sane enough to do: bring a knife into a gunfight. But it's a pretty big knife, after all." }
 		]
 	},
