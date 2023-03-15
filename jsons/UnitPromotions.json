@@ -8,7 +8,7 @@
 			"Invisible to non-adjacent units <in [Jungle] tiles>",
                         "Invisible to non-adjacent units <in [Forest] tiles>",
                         "Invisible to non-adjacent units <in [Marsh] tiles>",
-			"[+8] HP when healing <in [Foreign Land] tiles>".
+			"[+8] HP when healing <in [Foreign Land] tiles>"
 		],
 		"row": 124,
                 "column": 0
@@ -18,7 +18,7 @@
 		"uniques": [
 			"[+25]% Strength <when fighting in [Open terrain] tiles>",
                         "[+25]% Strength <when defending>",
-                        "[+5] HP when healing <in [Foreign Land] tiles>".
+                        "[+5] HP when healing <in [Foreign Land] tiles>"
 		],
 		"row": 125,
                 "column": 0
@@ -27,7 +27,7 @@
 		"name": "United Will",
 		"uniques": [
                          "[+50]% XP gained from combat",
-                         "Damage is ignored when determining unit Strength".
+                         "Damage is ignored when determining unit Strength"
 		],
 		"row": 126,
                 "column": 0
