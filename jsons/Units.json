@@ -30,10 +30,10 @@
         {
 		"name": "Assault",
 		"unitType": "Infantry",
-		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Colony Rifleman",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
-		"strength": 18,
+		"strength": 15,
 		"cost": 100,
 		"requiredTech": "Next-Gen Armament",
 		"uniques": [
@@ -59,8 +59,8 @@
         {
 		"name": "Grenadier",
 		"unitType": "Sniper",
-		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Colony Marksman",
+		"uniqueTo": "Alliance of New Federation",
 		"range": 2,
 		"movement": 4,
 		"strength": 12,
@@ -91,8 +91,8 @@
         {
 		"name": "Fire Assault",
 		"unitType": "Infantry",
-		"uniqueTo": "Alliance of New Federation",
 		"replaces": "Exoframe Soldier",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 25,
 		"cost": 150,
@@ -105,11 +105,11 @@
 			"May Paradrop up to [3] tiles from outside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Blue Infantry","Horus Eye MK 1"],
+		"promotions": ["Blue Infantry","Horus Eye MK 1","United Will"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Exoframe Legionnaire",
+				"extraImage": "TileSets/FantasyHex/Units/Fire Assault",
 				"imageSize": 64
 			},
 			{
@@ -125,8 +125,8 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"range": 2,
-		"strength": 18,
-		"rangedStrength": 25,
+		"strength": 17,
+		"rangedStrength": 23,
 		"cost": 150,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
@@ -136,7 +136,7 @@
 			"[+25]% Strength <vs cities> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Blue Infantry"],
+		"promotions": ["Blue Infantry","United Will"],
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
@@ -167,7 +167,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Red Infantry","Horus Eye MK 1"],
+		"promotions": ["Red Infantry","Horus Eye MK 1","United Will"],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
@@ -180,5 +180,37 @@
 			{
 				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
 			}
+		]
+	},
+	{
+		"name": "Coyote",
+		"unitType": "Armored",
+		"replaces": "Light Buggy",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 5,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Portable Power Sources",
+		"uniques": [
+			"[+1] Sight",
+			"[+25]% Strength <vs [Infantry] units>",
+			"[+25]% Strength <vs [Stealth Infantry] units>",
+			"[+25]% Strength <vs [Sniper] units>",
+			"Double movement in [Open terrain]",
+			"Can move after attacking",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Coyote",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "Now with added zeal fueling their rampage. Witness them!" }
 		]
 	},
