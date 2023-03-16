@@ -119,6 +119,8 @@
 	{
 		"name": "Heavy Assault",
 		"unitType": "Sniper",
+		"replaces": "Exoframe Sniper",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"range": 2,
 		"strength": 18,
@@ -147,6 +149,8 @@
 	{
 		"name": "Sniper",
 		"unitType": "Sniper",
+		"replaces": "Laser Trooper",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"range": 3,
 		"strength": 22,
@@ -154,6 +158,7 @@
 		"cost": 200,
 		"requiredTech": "Lasers",
 		"uniques": [
+			"[+1] Sight",
 			"[+50]% Strength <vs [Infantry] units> <when attacking>",
                         "[+50]% Strength <vs [Stealth Infantry] units> <when attacking>",
                         "[+50]% Strength <vs [Sniper] units> <when attacking>",
