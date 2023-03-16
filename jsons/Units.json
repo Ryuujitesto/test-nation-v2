@@ -103,7 +103,7 @@
 			"[+50]% Strength <vs [Sniper] units>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Blue Infantry","Stealth Sensor MK 1"],
+		"promotions": ["Blue Infantry","Horus Eye MK 1"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{
@@ -114,5 +114,64 @@
 				"Separator": true
 			},
 			{ "text": "Their exoskeletons make them able to do what no other soldiers are sane enough to do: bring a knife into a gunfight. But it's a pretty big knife, after all." }
+		]
+	},
+	{
+		"name": "Heavy Assault",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 2,
+		"strength": 18,
+		"rangedStrength": 25,
+		"cost": 150,
+		"requiredTech": "Exoskeletons",
+		"uniques": [
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
+                        "[+25]% Strength <vs [Mech] units> <when attacking>",
+                        "[+25]% Strength <vs [Helicopter] units> <when attacking>",
+			"[+25]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Blue Infantry"],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy Assault",
+				"imageSize": 64
+			},
+			{
+				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
+			}
+		]
+	},
+	{
+		"name": "Sniper",
+		"unitType": "Sniper",
+		"movement": 2,
+		"range": 3,
+		"strength": 22,
+		"rangedStrength": 28,
+		"cost": 200,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"[+50]% Strength <vs [Infantry] units> <when attacking>",
+                        "[+50]% Strength <vs [Stealth Infantry] units> <when attacking>",
+                        "[+50]% Strength <vs [Sniper] units> <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Red Infantry","Horus Eye MK 1"],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sniper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
+			}
 		]
 	},
