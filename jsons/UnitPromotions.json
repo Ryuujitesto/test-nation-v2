@@ -35,6 +35,8 @@
 	{
 		"name": "Horus Eye MK 1",
 		"uniques": [
+			 "[+1] Sight",
+			 "Can see over obstacles",
                          "Can see invisible [Land] units"	
 		],
 		"row": 127,
@@ -43,6 +45,8 @@
 	{
 		"name": "Horus Eye MK 2",
 		"uniques": [
+			 "[+1] Sight",
+			 "Can see over obstacles",
                          "Can see invisible [Water] units"
 		],
 		"row": 128,
@@ -51,6 +55,8 @@
 	{
 		"name": "Horus Eye MK 3",
 		"uniques": [
+			 "[+1] Sight",
+			 "Can see over obstacles",
                          "Can see invisible [Land] units",
 			 "Can see invisible [Water] units"
 		],
