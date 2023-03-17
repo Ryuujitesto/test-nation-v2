@@ -203,7 +203,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -310,7 +309,7 @@
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
+		"promotions": ["United Will"],
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
@@ -322,6 +321,41 @@
 			},
 			{
 				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
+			}
+		]
+	},
+        {
+		"name": "Zeus",
+		"unitType": "Armored",
+                "replaces": "Laser Tank",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+                        "[+100]% Strength <when attacking>"
+                        "[+100]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Zeus",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
 			}
 		]
 	},
