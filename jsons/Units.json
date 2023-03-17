@@ -4,7 +4,7 @@
 		"unitType": "Infantry",
 		"replaces": "Frontier Militia",
 		"uniqueTo": "Alliance of New Federation",
-		"movement": 5,
+		"movement": 4,
 		"strength": 12,
 		"cost": 50,
 		"uniques": [
@@ -212,5 +212,37 @@
 				"Separator": true
 			},
 			{ "text": "Now with added zeal fueling their rampage. Witness them!" }
+		]
+	},
+        {
+		"name": "Fortress",
+		"unitType": "Rover",
+                "replaces": "Rover Explorer",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 2,
+		"strength": 18,
+		"cost": 150,
+		"requiredTech": "Robotics",
+		"uniques": [
+                        "[+50]% Strength <vs [Infantry] units>",
+                        "[+50]% Strength <vs [Stealth Infantry] units>",
+                        "[+50]% Strength <vs [Sniper] units>",
+                        "[+50]% Strength <when defending>",
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Fortress",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+			}
 		]
 	},
