@@ -184,20 +184,22 @@
 	},
 	{
 		"name": "Coyote",
-		"unitType": "Armored",
-		"replaces": "Light Buggy",
+		"unitType": "Rover",
+		"replaces": "Rover Explorer",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 5,
 		"strength": 15,
 		"cost": 100,
 		"requiredTech": "Portable Power Sources",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"[+1] Sight",
-			"[+25]% Strength <vs [Infantry] units>",
-			"[+25]% Strength <vs [Stealth Infantry] units>",
-			"[+25]% Strength <vs [Sniper] units>",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Stealth Infantry] units>",
+			"[+50]% Strength <vs [Sniper] units>",
 			"Double movement in [Open terrain]",
 			"Can move after attacking",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -216,19 +218,21 @@
 	},
         {
 		"name": "Fortress",
-		"unitType": "Rover",
-                "replaces": "Rover Explorer",
+		"unitType": "Armored",
+                "replaces": "Light Buggy",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"strength": 18,
-		"cost": 150,
-		"requiredTech": "Robotics",
+		"cost": 200,
+		"requiredTech": "Portable Power Sources",
+		"requiredResource": "Titanium",
 		"uniques": [
-                        "[+50]% Strength <vs [Infantry] units>",
-                        "[+50]% Strength <vs [Stealth Infantry] units>",
-                        "[+50]% Strength <vs [Sniper] units>",
+                        "[+100]% Strength <vs [Infantry] units>",
+                        "[+100]% Strength <vs [Stealth Infantry] units>",
+                        "[+100]% Strength <vs [Sniper] units>",
                         "[+50]% Strength <when defending>",
 			"Only available <in cities with a [Rover Storage]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -243,6 +247,81 @@
 			},
 			{
 				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+			}
+		]
+	},
+	{
+		"name": "Armadillo",
+		"unitType": "Rover",
+		"replaces": "Combat Rover",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"strength": 35,
+		"cost": 200,
+		"requiredTech": "Robotics",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+1] Sight",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[+25]% Strength <when defending>",
+			"Can build [Land] improvements on tiles",
+			"Can move after attacking",
+			"Only available <in cities with a [Rover Storage]>",
+			"Consumes [2] [Titanium]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Armadillo",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+			}
+		]
+	},
+	{
+		"name": "Hammer",
+		"unitType": "Armored",
+		"replaces": "Colonial Armor",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 5,
+		"strength": 35,
+		"cost": 175,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+			"[+50]% Strength <when attacking>",
+			"[+25]% Strength <when defending>",
+			"May withdraw before melee ([30]%)",
+			"Can move after attacking",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Armor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
 			}
 		]
 	},
