@@ -264,6 +264,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
+			"[+25]% Strength <when attacking>",
 			"[+25]% Strength <when defending>",
 			"Can build [Land] improvements on tiles",
 			"Can move after attacking",
@@ -338,7 +339,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-                        "[+100]% Strength <when attacking>"
+                        "[+100]% Strength <when attacking>",
                         "[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [2] [Promethine]",
@@ -394,5 +395,149 @@
 			{
 				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
 			}
+		]
+	},
+	{
+		"name": "Caiman",
+		"unitType": "Close Range Water",
+		"replaces": "Light Hydrofoil",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 5,
+		"strength": 12,
+		"cost": 45,
+		"requiredTech": "Hydrodynamics",
+		"upgradesTo": "Caiman MK 2",
+		"uniques": [
+		        "[+25]% Strength <vs [Water] units> <when attacking>",
+			"Can build [Water] improvements on tiles",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Caiman",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."
+			}
+		]
+	},
+	{
+		"name": "Delta",
+		"unitType": "Hover",
+		"replaces": "Light Hovercraft",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 1,
+		"strength": 16,
+		"rangedStrength": 18,
+		"cost": 100,
+		"requiredTech": "Hovercrafts",
+		"requiredResource": "Titanium",
+		"upgradesTo": "Delta MK 2",
+		"uniques": [
+			"Armored",
+			"Hovercraft",
+			"[+25]% Strength <when attacking>"
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May attack when embarked",
+			"Ignores terrain cost",
+			"Can move after attacking",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Delta",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."
+			}
+		]
+	},
+	{
+		"name": "Caiman MK 2",
+		"unitType": "Close Range Water",
+		"replaces": "Assault Hydrofoil",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 6,
+		"strength": 23,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"uniques": [
+		        "[+25]% Strength <vs [Water] units>",
+			"[+25]% Strength <when attacking>",
+			"May withdraw before melee ([50]%)",
+			"Can build [Water] improvements on tiles",
+			"Only available <in cities with a [Floating Harbor]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 2"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Caiman MK 2",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
+			}
+		]
+	},
+	{
+		"name": "Delta MK 2",
+		"unitType": "Hover",
+		"replaces": "Hovertank",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"range": 2,
+		"strength": 28,
+		"rangedStrength": 30,
+		"cost": 150,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Armored",
+			"Hovercraft",
+			"[+25]% Strength <when attacking>",
+                        "[+25]% Strength <when defending>",
+			"Normal vision when embarked",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May attack when embarked",
+			"Ignores terrain cost",
+			"Can move after attacking",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Delta MK 2",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "An armored, upgunned hovercraft." }
 		]
 	},
