@@ -331,7 +331,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"strength": 50,
-		"cost": 300,
+		"cost": 400,
 		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -356,6 +356,43 @@
 			},
 			{
 				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
+			}
+		]
+	},
+        {
+		"name": "Jaguar",
+		"unitType": "Armored",
+                "replaces": "Drop Tank",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 400,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units>",
+                        "[+75]% Strength <when attacking>"
+                        "[+50]% Strength <when defending>",
+                        "Can move after attacking",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jaguar",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
 			}
 		]
 	},
