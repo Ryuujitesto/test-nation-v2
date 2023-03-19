@@ -339,7 +339,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-                        "[+100]% Strength <when attacking>",
+                        "[+75]% Strength <when attacking>",
                         "[+100]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [2] [Promethine]",
@@ -375,7 +375,7 @@
 		"uniques": [
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
-                        "[+75]% Strength <when attacking>"
+                        "[+50]% Strength <when attacking>"
                         "[+50]% Strength <when defending>",
                         "Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
@@ -528,7 +528,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
-		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
@@ -539,5 +538,230 @@
 				"Separator": true
 			},
 			{ "text": "An armored, upgunned hovercraft." }
+		]
+	},
+	{
+		"name": "Alligator",
+		"unitType": "Close Range Water",
+		"replaces": "Corvette",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 6,
+		"strength": 40,
+		"cost": 250,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+1] Sight",
+			"[+50]% Strength <vs [Water] units>",
+			"[+50]% Strength <when attacking>",
+			"May withdraw before melee ([100]%)",
+			"Double movement in [Ocean]",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Alligator",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A serious combat ship, they pack firepower in a compact and fast hull."
+			}
+		]
+	},
+	{
+		"name": "Poseidon",
+		"unitType": "Ranged Water",
+		"replaces": "Missile Destroyer",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 6,
+		"strength": 35,
+		"rangedStrength": 40,
+		"cost": 275,
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+3] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs [Drone] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Ranged attacks may be performed over obstacles"
+			"Can carry [2] [Anti-Satellite Missile] units",
+			"Can carry [5] [Cruise Missile] units",
+			"Can carry [5] [Short-Range Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Poseidon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Armed with advanced missiles, these could double as floating missile platforms."
+			}
+		]
+	},
+	{
+		"name": "Barracuda",
+		"unitType": "Submarine",
+		"replaces": "Submersible",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"range": 3,
+		"strength": 35,
+		"rangedStrength": 35,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"upgradesTo": "Barracuda MK 2"
+		"uniques": [
+			"[+100]% Strength <vs [Submarine] units> <when attacking>",
+			"[+100]% Strength <vs [Xeno Stealth Water] units>",
+			"Can carry [2] [Cruise Missile] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 2"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Barracuda",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These sneaky vessels prowl the depths mostly undetected by other ships."
+			}
+		]
+	},
+	{
+		"name": "Viking",
+		"unitType": "Ranged Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 3,
+		"strength": 50,
+		"rangedStrength": 60,
+		"cost": 275,
+		"requiredTech": "Composite Armor",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+1] Sight",
+			"[+100]% Strength <vs [Water] units>",
+			"[+75]% Strength <when attacking>",
+			"[+100]% Strength <when defending>",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [3] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 2"],
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Viking",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Massive and powerful, this ship sends a message of military might."
+			}
+		]
+	},
+	{
+		"name": "Barracuda MK 2",
+		"unitType": "Submarine",
+		"replaces": "Phantom Submersible",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 5,
+		"range": 4,
+		"strength": 55,
+		"rangedStrength": 60,
+		"cost": 375,
+		"requiredTech": "Metamaterials",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[+2] Sight",
+			"[+200]% Strength <vs [Water] units>",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Can carry [4] [Cruise Missile] units",
+			"Can carry [2] [Nuclear ICBM] units",
+			"Only available <in cities with a [Naval Yard]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 2"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Barracuda MK 2",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Augmented with adaptive optical and sonar-deflecting camouflage, they are even harder to spot while they prowl the seas."
+			}
+		]
+	},
+	{
+		"name": "Cyclone",
+		"unitType": "Helicopter",
+		"replaces": "Combat Drone",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 7,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Aerial Drones",
+		"uniques": [
+			"Drone",
+			"[+2] Sight",
+			"[+50]% Strength <vs [Infantry] units> <when attacking>",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 3"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyclone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Small, fast and highly annoying, they are nevertheless good against infantry."
+			}
 		]
 	},
