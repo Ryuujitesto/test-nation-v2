@@ -765,3 +765,102 @@
 			}
 		]
 	},
+	{
+		"name": "Hawk",
+		"unitType": "Aerocraft",
+		"replaces": "Aerojet",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 25,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+1] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+125]% Strength <vs [non-air] units>",
+			"[+50]% Strength <vs [Air] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Damage taken from interception reduced by [25]%",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Blue Streak's own design, it is designed to hit enemy armor hard and fast while still keeping a high speed and low drag. Its sensor suite is also optimized to detect distant threats."
+			}
+		]
+	},
+	{
+		"name": "Vertex",
+		"unitType": "Aerocraft",
+		"replaces": "Strike Drone",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 30,
+		"range": 6,
+		"interceptRange": 6,
+		"cost": 100,
+		"requiredTech": "Strike Drones",
+		"uniques": [
+			"Drone",
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength when performing Air Sweep",
+			"[+50]% Damage when intercepting",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+125]% Strength <vs [Air] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Damage taken from interception reduced by [50]%",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
+			}
+		]
+	},
+	{
+		"name": "Thor",
+		"unitType": "Aerocraft",
+		"replaces": "Beam Fighter",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 150,
+		"requiredTech": "Lasers",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+75]% Strength when performing Air Sweep",
+			"[+100]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Satellite] units> <with [75]% chance> <when attacking>",
+			"[+100]% Strength <vs cities>",
+			"Damage taken from interception reduced by [75]%",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"text": "Equipped with pinpoint precision laser weaponry and the targeting suite to go with it, they are a verified threat against aerial units - and sometimes even satellites."
+			}
+		]
+	},
