@@ -836,8 +836,8 @@
 		"replaces": "Beam Fighter",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 1,
-		"strength": 40,
-		"rangedStrength": 40,
+		"strength": 60,
+		"rangedStrength": 45,
 		"range": 4,
 		"interceptRange": 4,
 		"cost": 150,
@@ -848,7 +848,7 @@
 			"[100]% chance to intercept air attacks",
 			"[+75]% Strength when performing Air Sweep",
 			"[+100]% Strength <vs [non-air] units>",
-			"[+150]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Satellite] units> <with [75]% chance> <when attacking>",
 			"[+100]% Strength <vs cities>",
 			"Damage taken from interception reduced by [75]%",
@@ -861,6 +861,157 @@
 		"civilopediaText": [
 			{
 				"text": "Equipped with pinpoint precision laser weaponry and the targeting suite to go with it, they are a verified threat against aerial units - and sometimes even satellites."
+			}
+		]
+	},
+	{
+		"name": "Albatross",
+		"unitType": "Aerocraft",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"interceptRange": 1,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"[10]% chance to intercept air attacks",
+			"[+100]% Strength <vs [non-air] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
+			}
+		]
+	},
+	{
+		"name": "Dragonfly",
+		"unitType": "Helicopter",
+		"replaces": "Cyberheli",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 345,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"[80]% chance to intercept air attacks",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+2] Sight",
+			"[+50]% Strength <vs [Land] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs [Water] units>",
+			"May withdraw before melee ([75]%)",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyberheli",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-autonomous combat helicopters whose pilots use mind-machine interface technology to induce dragonfly-like agility."
+			}
+		]
+	},
+	{
+		"name": "Wasp",
+		"unitType": "Helicopter",
+		"replaces": "Swarm Drones",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 6,
+		"strength": 55,
+		"cost": 355,
+		"requiredTech": "Hive Mind",
+		"requiredResource": "Vitamass",
+		"uniques": [
+			"Drone",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+2] Sight",
+			"[+100]% Strength <vs [Land] units>",
+			"[+50]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Water] units>",
+			"[+75]% Strength <when adjacent to a [Swarm Drones] unit>",
+			"[+25]% Strength <when adjacent to a [Military] unit>",
+			"May withdraw before melee ([80]%)",
+			"Consumes [1] [Vitamass]",
+			"Consumes [1] [Digital Storage Space]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Taking notes from Darters, these flocks of AI-controlled drones operate as if they are a single organism. Their combat algorithms are enhanced when there are more units near them."
+			}
+		]
+	},
+	{
+		"name": "Leviathan",
+		"unitType": "Hover Carrier",
+		"replaces": "Hovercarrier",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 2,
+		"strength": 40,
+		"cost": 250,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Carrier",
+			"Hovercraft",
+			"Can carry [5] [Aerocraft] units",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"[+100]% Strength <when attacking>",
+			"[+100]% Strength <when defending>",
+			"Consumes [3] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hovercarrier",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
 			}
 		]
 	},
