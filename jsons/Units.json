@@ -6,7 +6,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
 		"strength": 12,
-		"cost": 50,
+		"cost": 60,
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units> <when attacking>",
                         "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
@@ -34,7 +34,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 15,
-		"cost": 100,
+		"cost": 120,
 		"requiredTech": "Next-Gen Armament",
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units>",
