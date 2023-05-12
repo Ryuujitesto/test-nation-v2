@@ -7,7 +7,8 @@
                         "[+25]% Strength <when fighting in [Rough terrain] tiles>",
 			"Invisible to non-adjacent units <in [Rough terrain] tiles>",
                         "Invisible to non-adjacent units <in [Marsh] tiles>",
-			"[+10] HP when healing <in [All] tiles>"
+			"[+5] HP when healing <in [All] tiles>",
+			"Earn [100]% of killed [All] unit's [Strength] as [Science]"
 		],
 		"row": 124,
                 "column": 0
@@ -15,9 +16,11 @@
 	{
 		"name": "Blue Infantry",
 		"uniques": [
+			"[+1] Sight",
 			"[+25]% Strength <when fighting in [Open terrain] tiles>",
                         "[+25]% Strength <when defending>",
-                        "[+5] HP when healing <in [All] tiles>"
+                        "[+10] HP when healing <in [All] tiles>",
+			"Earn [100]% of killed [All] unit's [Strength] as [Science]"
 		],
 		"row": 125,
                 "column": 0
@@ -25,7 +28,8 @@
 	{
 		"name": "United Will",
 		"uniques": [
-                         "[+50]% XP gained from combat",
+                         "[+100]% XP gained from combat",
+			"Earn [100]% of killed [All] unit's [Strength] as [Culture]",
                          "Damage is ignored when determining unit Strength"
 		],
 		"row": 126,
