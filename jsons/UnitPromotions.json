@@ -7,6 +7,7 @@
                         "[+25]% Strength <when fighting in [Rough terrain] tiles>",
 			"Invisible to non-adjacent units <in [Rough terrain] tiles>",
                         "Invisible to non-adjacent units <in [Marsh] tiles>",
+			"Ignores terrain cost",
 			"[+5] HP when healing <in [All] tiles>",
 			"Earn [100]% of killed [All] unit's [Strength] as [Science]"
 		],
