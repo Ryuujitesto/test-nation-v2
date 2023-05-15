@@ -6,7 +6,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
 		"strength": 8,
-		"cost": 60,
+		"cost": 80,
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units> <when attacking>",
                         "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
@@ -34,7 +34,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 15,
-		"cost": 120,
+		"cost": 160,
 		"requiredTech": "Next-Gen Armament",
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units>",
@@ -65,7 +65,7 @@
 		"movement": 4,
 		"strength": 12,
 		"rangedStrength": 18,
-		"cost": 125,
+		"cost": 190,
 		"requiredTech": "Military Ballistics",
 		"uniques": [
 			"[+25]% Strength <vs [Armored] units> <when attacking>",
@@ -95,7 +95,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 25,
-		"cost": 200,
+		"cost": 270,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"[+50]% Strength <vs [Infantry] units>",
@@ -127,7 +127,7 @@
 		"range": 2,
 		"strength": 17,
 		"rangedStrength": 23,
-		"cost": 200,
+		"cost": 250,
 		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
@@ -157,7 +157,7 @@
 		"range": 4,
 		"strength": 22,
 		"rangedStrength": 28,
-		"cost": 325,
+		"cost": 300,
 		"requiredTech": "Lasers",
 		"uniques": [
 			"[+1] Sight",
@@ -191,7 +191,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 5,
 		"strength": 10,
-		"cost": 85,
+		"cost": 110,
 		"requiredTech": "Portable Power Sources",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -224,7 +224,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"strength": 20,
-		"cost": 150,
+		"cost": 220,
 		"requiredTech": "Portable Power Sources",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -259,14 +259,14 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 25,
-		"cost": 200,
+		"cost": 270,
 		"requiredTech": "Robotics",
 		"requiredResource": "Titanium",
 		"uniques": [
 			"[+1] Sight",
-			"[+50]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Mech] units>",
-			"[+50]% Strength <vs [Helicopter] units>",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Mech] units>",
+			"[+25]% Strength <vs [Helicopter] units>",
 			"[+25]% Strength <when attacking>",
 			"[+25]% Strength <when defending>",
 			"Can build [Land] improvements on tiles",
@@ -297,18 +297,18 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 5,
 		"strength": 30,
-		"cost": 175,
+		"cost": 330,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"[+100]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Mech] units>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units>",
 			"[+50]% Strength <when attacking>",
 			"[+25]% Strength <when defending>",
-			"May withdraw before melee ([30]%)",
+			"May withdraw before melee ([50]%)",
 			"Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Titanium]",
+			"Consumes [1] [Titanium]",
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -334,16 +334,19 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"strength": 50,
-		"cost": 400,
+		"cost": 550,
 		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
+			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Mech] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
                         "[+75]% Strength <when attacking>",
-                        "[+100]% Strength <when defending>",
+                        "[+75]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -371,7 +374,7 @@
 		"range": 3,
 		"strength": 45,
 		"rangedStrength": 50,
-		"cost": 400,
+		"cost": 550,
 		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -381,6 +384,7 @@
                         "[+50]% Strength <when defending>",
                         "Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
 			"Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -406,7 +410,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 5,
 		"strength": 12,
-		"cost": 45,
+		"cost": 130,
 		"requiredTech": "Hydrodynamics",
 		"upgradesTo": "Caiman MK 2",
 		"uniques": [
@@ -439,7 +443,7 @@
 		"range": 1,
 		"strength": 16,
 		"rangedStrength": 18,
-		"cost": 100,
+		"cost": 190,
 		"requiredTech": "Hovercrafts",
 		"requiredResource": "Titanium",
 		"upgradesTo": "Delta MK 2",
@@ -477,7 +481,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 6,
 		"strength": 23,
-		"cost": 125,
+		"cost": 250,
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 		        "[+25]% Strength <vs [Water] units>",
@@ -511,7 +515,7 @@
 		"range": 2,
 		"strength": 28,
 		"rangedStrength": 30,
-		"cost": 150,
+		"cost": 330,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -549,7 +553,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 6,
 		"strength": 40,
-		"cost": 250,
+		"cost": 440,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -586,7 +590,7 @@
 		"range": 6,
 		"strength": 35,
 		"rangedStrength": 40,
-		"cost": 275,
+		"cost": 440,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -630,7 +634,7 @@
 		"range": 3,
 		"strength": 35,
 		"rangedStrength": 35,
-		"cost": 275,
+		"cost": 380,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Titanium",
 		"upgradesTo": "Barracuda MK 2"
@@ -666,7 +670,7 @@
 		"range": 3,
 		"strength": 50,
 		"rangedStrength": 60,
-		"cost": 275,
+		"cost": 660,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -704,7 +708,7 @@
 		"range": 4,
 		"strength": 55,
 		"rangedStrength": 60,
-		"cost": 375,
+		"cost": 660,
 		"requiredTech": "Metamaterials",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -740,7 +744,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 7,
 		"strength": 10,
-		"cost": 45,
+		"cost": 110,
 		"requiredTech": "Aerial Drones",
 		"uniques": [
 			"Drone",
@@ -777,7 +781,7 @@
 		"rangedStrength": 25,
 		"range": 5,
 		"interceptRange": 5,
-		"cost": 150,
+		"cost": 330,
 		"requiredTech": "Aeronautics",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -809,7 +813,7 @@
 		"rangedStrength": 30,
 		"range": 6,
 		"interceptRange": 6,
-		"cost": 100,
+		"cost": 330,
 		"requiredTech": "Strike Drones",
 		"uniques": [
 			"Drone",
@@ -842,7 +846,7 @@
 		"rangedStrength": 45,
 		"range": 4,
 		"interceptRange": 4,
-		"cost": 150,
+		"cost": 660,
 		"requiredTech": "Lasers",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -875,7 +879,7 @@
 		"rangedStrength": 50,
 		"range": 6,
 		"interceptRange": 1,
-		"cost": 150,
+		"cost": 550,
 		"requiredTech": "Aeronautics",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -906,7 +910,7 @@
 		"rangedStrength": 50,
 		"range": 3,
 		"interceptRange": 3,
-		"cost": 345,
+		"cost": 550,
 		"requiredTech": "Mind-Machine Interface",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -945,7 +949,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 6,
 		"strength": 55,
-		"cost": 355,
+		"cost": 605,
 		"requiredTech": "Hive Mind",
 		"requiredResource": "Vitamass",
 		"uniques": [
@@ -987,7 +991,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
 		"strength": 40,
-		"cost": 250,
+		"cost": 440,
 		"requiredTech": "Satellite Networks",
 		"requiredResource": "Promethine",
 		"uniques": [
