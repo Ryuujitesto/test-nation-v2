@@ -169,7 +169,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Red Infantry","Horus Eye MK 1","United Will"],
+		"promotions": ["Blue Infantry","Red Infantry","Horus Eye MK 1","United Will"],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
@@ -181,6 +181,38 @@
 			},
 			{
 				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
+			}
+		]
+	},
+	{
+		"name": "Cerberus",
+		"unitType": "Infantry",
+		"replaces": "Drop Trooper",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"strength": 35,
+		"cost": 380,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"[+1] Sight",
+			"[+50]% Strength <when attacking>",
+			"[+75]% Strength <when defending>",
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"May Paradrop up to [5] tiles from outside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Red Infantry","Horus Eye MK 1","United Will"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
 			}
 		]
 	},
@@ -1018,6 +1050,113 @@
 			},
 			{
 				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+			}
+		]
+	},
+	{
+		"name": "Thunderbolt Missile",
+		"unitType": "Missile",
+		"replaces": "Short-Range Missile",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 5,
+		"cost": 330,
+		"requiredTech": "Missiles",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units> <when attacking>",
+			"[+100]% Strength <vs [Mech] units> <when attacking>",
+			"[+100]% Strength <vs [Water] units> <when attacking>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Remotely controlled single-use missiles for anti-armor operations."
+			}
+		]
+	},
+	{
+		"name": "Apollo Missile",
+		"unitType": "Missile",
+		"replaces": "Anti-Satellite Missile",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 7,
+		"cost": 550,
+		"requiredTech": "Payload Delivery",
+		"uniques": [
+			"Can perform Air Sweep",
+			"[100]% chance to intercept air attacks <vs [Satellite] units>",
+			"[+500]% Damage when intercepting",
+			"Can only attack [Satellite] units",
+			"[+500]% Strength <vs [Satellite] units>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Remotely controlled, single-use hypersonic missiles exclusively built for anti-satellite operations."
+			}
+		]
+	},
+	{
+		"name": "Arrow Missile",
+		"unitType": "Missile",
+		"replaces": "Cruise Missile",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 6,
+		"cost": 490,
+		"requiredTech": "Satellite Networks",
+		"uniques": [
+			"[+2] Sight",
+			"Blast radius [2]",
+			"[+100]% Strength <vs cities>",
+			"[-100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{
+				"text": "Satellite-guided missile with enough payload to neutralize coastal defences."
+			}
+		]
+	},
+	{
+		"name": "Ragnarok",
+		"unitType": "Missile",
+		"replaces": "Nuclear ICBM",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 15,
+		"cost": 1100,
+		"requiredTech": "Orbital Deterrents",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Nuclear weapon of Strength [5]",
+			"Blast radius [5]",
+			"[+250]% Strength <vs [non-air] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Only available <if [Samson Option] is constructed>",
+			"Only available <in cities with a [Orbital Launch Facility]>",
+			"Only available <in cities with a [ICBM Silo]>",
+			"Consumes [3] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{
+				"text": "Armed with the looming threat of mutually assured destruction."
 			}
 		]
 	},
