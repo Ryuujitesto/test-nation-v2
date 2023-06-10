@@ -334,7 +334,7 @@
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Mech] units>",
+			"[+25]% Strength <vs [Mech] units>",
 			"[+50]% Strength <when attacking>",
 			"[+25]% Strength <when defending>",
 			"May withdraw before melee ([50]%)",
@@ -372,7 +372,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Mech] units>",
+			"[+50]% Strength <vs [Mech] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
                         "[+75]% Strength <when attacking>",
@@ -411,7 +411,7 @@
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+100]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Mech] units>",
+			"[+50]% Strength <vs [Mech] units>",
                         "[+50]% Strength <when attacking>"
                         "[+50]% Strength <when defending>",
                         "Can move after attacking",
@@ -1157,6 +1157,41 @@
 		"civilopediaText": [
 			{
 				"text": "Armed with the looming threat of mutually assured destruction."
+			}
+		]
+	},
+	{
+		"name": "Recon Mecha",
+		"unitType": "Close Range Mech",
+		"movement": 5,
+		"strength": 35,
+		"cost": 175,
+		"requiredTech": "Mecha Prototypes",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"[+2] Sight",
+			"[+3] Movement",
+			"Can move after attacking",
+			"Ignore terrain cost",
+			"[25]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Recon Mecha",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
 			}
 		]
 	},
