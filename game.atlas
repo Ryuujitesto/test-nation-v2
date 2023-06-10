@@ -7198,7 +7198,7 @@ UnitPromotionIcons/Peacekeeper Training
   offset: 0, 0
   index: -1
   
-game5.png
+game.png
 size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -7218,6 +7218,13 @@ NationIcons/Shamsy Electric Technologies
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Solar Farm
+  rotate: false
+  xy: 476, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mnewer Attack Mecha
   rotate: false
   xy: 436, 76
   size: 32, 28
