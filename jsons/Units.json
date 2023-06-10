@@ -205,7 +205,7 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Drop Trooper",
+				"extraImage": "TileSets/FantasyHex/Units/Cerberus",
 				"imageSize": 64
 			},
 			{
@@ -348,7 +348,7 @@
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Colonial Armor",
+				"extraImage": "TileSets/FantasyHex/Units/Hammer",
 				"imageSize": 64
 			},
 			{
@@ -748,8 +748,8 @@
 			"[+200]% Strength <vs [Water] units>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Can carry [4] [Cruise Missile] units",
-			"Can carry [2] [Nuclear ICBM] units",
+			"Can carry [4] [Missile] units",
+			"Can carry [2] [Ragnarok] units",
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -963,7 +963,7 @@
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Cyberheli",
+				"extraImage": "TileSets/FantasyHex/Units/Dragonfly",
 				"imageSize": 64
 			},
 			{
@@ -1005,7 +1005,7 @@
 		"attackSound": "RapidLaser",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Swarm Drones",
+				"extraImage": "TileSets/FantasyHex/Units/Wasp",
 				"imageSize": 64
 			},
 			{
@@ -1030,6 +1030,7 @@
 			"Carrier",
 			"Hovercraft",
 			"Can carry [5] [Aerocraft] units",
+			"Can carry [2] [Missile] units",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
 			"[+100]% Strength <when attacking>",
@@ -1042,7 +1043,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Hovercarrier",
+				"extraImage": "TileSets/FantasyHex/Units/Leviathan",
 				"imageSize": 64
 			},
 			{
@@ -1161,11 +1162,13 @@
 		]
 	},
 	{
-		"name": "Recon Mecha",
+		"name": "Raven",
 		"unitType": "Close Range Mech",
+		"replaces": "Recon Mecha",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 5,
 		"strength": 35,
-		"cost": 175,
+		"cost": 380,
 		"requiredTech": "Mecha Prototypes",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -1174,7 +1177,8 @@
 			"[+3] Movement",
 			"Can move after attacking",
 			"Ignore terrain cost",
-			"[25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Mech] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -1184,7 +1188,7 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Recon Mecha",
+				"extraImage": "TileSets/FantasyHex/Units/Raven",
 				"imageSize": 64
 			},
 			{
@@ -1192,6 +1196,162 @@
 			},
 			{
 				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
+			}
+		]
+	},
+	{
+		"name": "Atlas",
+		"unitType": "Close Range Mech",
+		"replaces": "Assault Mecha",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 45,
+		"cost": 490,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"Ignore terrain cost",
+			"[+50]% Strength <vs [Mech] units>",
+			"[+50]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Atlas",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."
+			}
+		]
+	},
+	{
+		"name": "Jourmungard",
+		"unitType": "Ranged Mech",
+		"replaces": "Artillery Mecha",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 4,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 550,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"[+250]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"Ignore terrain cost",
+			"Indirect Fire",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Mech] units> <when attacking>",
+			"[+1] Sight",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jourmungard",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."
+			}
+		]
+	},
+	{
+		"name": "Marauder",
+		"unitType": "Ranged Mech",
+		"replaces": "Laser Mecha",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 3,
+		"strength": 45,
+		"rangedStrength": 50,
+		"cost": 550,
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"[+25]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"Ignore terrain cost",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Mech] units> <when attacking>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Marauder",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Armed with an extra large laser cannon, this mech requires an Ulframite fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
+			}
+		]
+	},
+	{
+		"name": "Mammoth",
+		"unitType": "Close Range Mech",
+		"replaces": "Siege Walker",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 2,
+		"range": 6,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": 600,
+		"requiredTech": "Mind-Machine Interface",
+		"requiredResource": "Ulframite",
+		"uniques": [
+			"Mech",
+			"[+2] Sight",
+			"[+400]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <when attacking>",
+			"Must set up to ranged attack",
+			"Ignore terrain cost",
+			"Indirect Fire",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Ulframite]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mammoth",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A heavy quadrupedal mech sporting a variety of weapons, this walking fortress is a threat to cities."
 			}
 		]
 	},
