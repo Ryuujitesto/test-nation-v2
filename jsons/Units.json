@@ -1355,3 +1355,70 @@
 			}
 		]
 	},
+	{
+		"name": "Anti-Air Buggy",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Missiles",
+		//"requiredResource": "Titanium",
+		//"upgradesTo": "Anti-Air Buggy",
+		//"obsoleteTech": "Chivalry",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units> <when attacking>",
+			"[+150]% Strength <vs [Drone] units> <when attacking>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "AntiAirLock",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Anti-Air Buggy",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."
+			}
+		]
+	},
+	{
+		"name": "Missile Rover",
+		"unitType": "Rover",
+		"movement": 2,
+		"range": 2,
+		"strength": 11,
+		"rangedStrength": 15,
+		"cost": 50,
+		"requiredTech": "Missiles",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missile Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."
+			}
+		]
+	},
