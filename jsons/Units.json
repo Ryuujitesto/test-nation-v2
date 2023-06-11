@@ -1423,3 +1423,35 @@
 			}
 		]
 	},
+	{
+		"name": "Aegis",
+		"unitType": "Civilian",
+		"replaces": "Tactical Mobile Uplink",
+		"uniqueTo": "Alliance of New Federation",
+		"cost": 200,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Digital Storage Space",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [3] tiles",
+			"[+10]% Strength bonus for [Data Uplinked] units within [3] tiles",
+			"[+10]% Strength bonus for [Military] units within [3] tiles <after discovering [Mind-Machine Interface]>",
+			"[+10]% Strength bonus for [Military] units within [3] tiles <after discovering [Artificial Intelligence]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Digital Storage Space] <after discovering [Artificial Intelligence]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		],
+		"movement": 3,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Aegis",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Mobile command centers, linked together via satellites, delivering real-time updates of the combat situation."
+			}
+		]
+	},
