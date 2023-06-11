@@ -905,6 +905,7 @@
 	{
 		"name": "Albatross",
 		"unitType": "Aerocraft",
+		"replaces": "Clone Trooper",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 1,
 		"strength": 50,
@@ -1356,30 +1357,30 @@
 		]
 	},
 	{
-		"name": "Anti-Air Buggy",
+		"name": "Porcupine",
 		"unitType": "Armored",
+		"replaces": "Anti-Air Buggy",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
+		"range": 2,
 		"strength": 15,
+		"rangedStrength": 20,
 		"cost": 100,
 		"requiredTech": "Missiles",
-		//"requiredResource": "Titanium",
-		//"upgradesTo": "Anti-Air Buggy",
-		//"obsoleteTech": "Chivalry",
 		"uniques": [
+			"[+1] Sight",
 			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units> <when attacking>",
-			"[+150]% Strength <vs [Drone] units> <when attacking>",
+			"[+100]% Strength <vs [Air] units> <when attacking>",
+			"[+200]% Strength <vs [Drone] units> <when attacking>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
 			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Anti-Air Buggy",
+				"extraImage": "TileSets/FantasyHex/Units/Porcupine",
 				"imageSize": 64
 			},
 			{
@@ -1391,19 +1392,24 @@
 		]
 	},
 	{
-		"name": "Missile Rover",
+		"name": "Typhoon",
 		"unitType": "Rover",
+		"replaces": "Missile Rover",
+		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
-		"range": 2,
-		"strength": 11,
-		"rangedStrength": 15,
+		"range": 4,
+		"strength": 15,
+		"rangedStrength": 25,
 		"cost": 50,
 		"requiredTech": "Missiles",
-		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
+			"[+2] Sight",
 			"Must set up to ranged attack",
-			"[-1] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units> <when attacking>",
+			"[+150]% Strength <vs [Aerocraft] units> <when attacking>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Can only attack [Air] units",
 			"Only available <in cities with a [Rover Storage]>",
 			"Never appears as a Barbarian unit"
 		],
