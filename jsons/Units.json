@@ -169,7 +169,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Blue Infantry","Red Infantry","Horus Eye MK 1","United Will"],
+		"promotions": ["Red Infantry","Horus Eye MK 1","United Will"],
 		"attackSound": "SingleLaser",
 		"civilopediaText": [
 			{
@@ -201,7 +201,7 @@
 			"May Paradrop up to [5] tiles from outside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Red Infantry","Horus Eye MK 1","United Will"],
+		"promotions": ["Blue Infantry","Red Infantry","Horus Eye MK 1","United Will"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -1185,7 +1185,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 1"],
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -1221,7 +1220,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 1"],
-		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
 			{
@@ -1262,7 +1260,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 1"],
-		"hurryCostModifier": 20,
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -1301,7 +1298,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 1"],
-		"hurryCostModifier": 20,
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -1341,7 +1337,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 1"],
-		"hurryCostModifier": 20,
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
 			{
@@ -1376,7 +1371,7 @@
 			"Can move after attacking",
 			"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
+		"promotions": ["United Will"],
 		"attackSound": "AntiAirLock",
 		"civilopediaText": [
 			{
@@ -1413,7 +1408,7 @@
 			"Only available <in cities with a [Rover Storage]>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["United Will"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
