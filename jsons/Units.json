@@ -1024,24 +1024,21 @@
 		"replaces": "Hovercarrier",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
-		"strength": 40,
-		"cost": 440,
+		"strength": 35,
+		"cost": 380,
 		"requiredTech": "Satellite Networks",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"Carrier",
 			"Hovercraft",
-			"Can carry [5] [Aerocraft] units",
+			"Can carry [2] [Aerocraft] units",
 			"Can carry [2] [Missile] units",
 			"Normal vision when embarked",
 			"Defense bonus when embarked",
-			"[+100]% Strength <when attacking>",
-			"[+100]% Strength <when defending>",
 			"Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
-		"hurryCostModifier": 20,
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -1053,6 +1050,77 @@
 			},
 			{
 				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+			}
+		]
+	},
+	{
+		"name": "Leviathan MK 2",
+		"unitType": "Hover Carrier",
+		"replaces": "Clone Trooper",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"strength": 40,
+		"cost": 440,
+		"requiredTech": "Satellite Networks",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Carrier",
+			"Hovercraft",
+			"Can carry [4] [Aerocraft] units",
+			"Can carry [4] [Missile] units",
+			"Normal vision when embarked",
+			"Defense bonus when embarked",
+			"[+50]% Strength <when attacking>",
+			"[+50]% Strength <when defending>",
+			"Consumes [3] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Leviathan MK 2",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+			}
+		]
+	},
+	{
+		"name": "Solaris",
+		"unitType": "Siege",
+		"replaces": "Graviton Cannon",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"range": 5,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 770,
+		"requiredTech": "Graviton Harnessing",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"[+1000]% Strength <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Ignore terrain cost",
+			"Consumes [1] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"attackSound": "ChargeUpBeam",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Solaris",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Powered by an antimatter reactor, this graviton-bore cannon unit can erase a city off the map in a literal sense."
 			}
 		]
 	},
