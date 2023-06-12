@@ -337,6 +337,7 @@
 			"[+25]% Strength <vs [Mech] units>",
 			"[+50]% Strength <when attacking>",
 			"[+25]% Strength <when defending>",
+			"[+20]% to Flank Attack bonuses",
 			"May withdraw before melee ([50]%)",
 			"Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
@@ -1474,7 +1475,9 @@
 			"[+25]% Strength <vs [Siege] units> <when attacking>",
 			"[+25]% Strength <vs [Mech] units> <when attacking>",
 			"[+25]% Strength <vs [Air] units>",
+			"[+25]% Strength <when defending>",
 			"[+15]% to Flank Attack bonuses",
+			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Digital Storage Space]",
 			"Never appears as a Barbarian unit"
 		],
@@ -1505,7 +1508,9 @@
 		"cost": 440,
 		"requiredTech": "Metamaterials",
 		"uniques": [
-			"[+20]% to Flank Attack bonuses",
+			"[+25]% Strength <when attacking>",
+			"[+50]% to Flank Attack bonuses",
+			"May withdraw before melee ([100]%)",
 			"Ignores Zone of Control",
 			"Invisible to others",
 			"May enter foreign tiles without open borders",
@@ -1515,7 +1520,7 @@
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Stealth Operative",
+				"extraImage": "TileSets/FantasyHex/Units/XCOM",
 				"imageSize": 64
 			},
 			{
@@ -1526,3 +1531,45 @@
 			}
 		]
 	},
+	{
+		"name": "Chameleon",
+		"unitType": "Armored",
+		"replaces": "Mirage Tank",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 3,
+		"strength": 40,
+		"rangedStrength": 45,
+		"cost": 550,
+		"requiredTech": "Artificial Intelligence",
+		"requiredResource": "Promethine",
+		"uniques": [
+			"Can move after attacking",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Mech] units>",
+			"[+25]% Strength <vs [Siege] units>",
+			"[+50]% Strength <vs [Air] units>",
+			"[+30]% to Flank Attack bonuses",
+			"May withdraw before melee ([50]%)",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Digital Storage Space]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Chameleon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These tanks are equipped with an AI-assisted portable holographic projector, making them hard to be seen on the battlefield."
+			}
+		]
+	}
+]
