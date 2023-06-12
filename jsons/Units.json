@@ -1428,7 +1428,7 @@
 		"unitType": "Civilian",
 		"replaces": "Tactical Mobile Uplink",
 		"uniqueTo": "Alliance of New Federation",
-		"cost": 200,
+		"cost": 300,
 		"requiredTech": "Satellite Networks",
 		"requiredResource": "Digital Storage Space",
 		"uniques": [
@@ -1454,6 +1454,75 @@
 			},
 			{
 				"text": "Mobile command centers, linked together via satellites, delivering real-time updates of the combat situation."
+			}
+		]
+	},
+	{
+		"name": "SPARKS",
+		"unitType": "Stealth Infantry",
+		"replaces": "Mirage Trooper",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"strength": 40,
+		"cost": 440,
+		"requiredResource": "Digital Storage Space",
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Can move after attacking",
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
+			"[+25]% Strength <vs [Siege] units> <when attacking>",
+			"[+25]% Strength <vs [Mech] units> <when attacking>",
+			"[+25]% Strength <vs [Air] units>",
+			"[+15]% to Flank Attack bonuses",
+			"Consumes [1] [Digital Storage Space]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/SPARKS",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their AI-assisted, personal holographic projectors can both function as a cloaking field or a way to confuse, disorient, and reduce the enemy's morale. Does cost a hefty bandwidth per unit."
+			}
+		]
+	},
+	{
+		"name": "XCOM",
+		"unitType": "Stealth Infantry",
+		"replaces": "Stealth Operative",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 3,
+		"range": 3,
+		"strength": 35,
+		"rangedStrength": 40,
+		"cost": 440,
+		"requiredTech": "Metamaterials",
+		"uniques": [
+			"[+20]% to Flank Attack bonuses",
+			"Ignores Zone of Control",
+			"Invisible to others",
+			"May enter foreign tiles without open borders",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stealth Operative",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
 			}
 		]
 	},
