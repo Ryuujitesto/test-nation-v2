@@ -106,7 +106,17 @@
 	},
 	{
 		"name": "Sanctuary Base",
-		"terrainsCanBeBuiltOn": ["Lands"],
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle",
+			"Mycelium"
+		],
 		"turnsToBuild": 10,
 		"techRequired": "Next-Gen Armaments",
 		"uniques": [
