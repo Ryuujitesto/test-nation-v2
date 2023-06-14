@@ -37,7 +37,9 @@
 			"[+1 Food, +1 Culture] from [Aquaculture] tiles [in this city]",
 			"[+1 Food, +1 Culture] from [Hydroponics Field] tiles [in this city]",
 			"[+1 Food, +1 Culture] from [Terraboretum] tiles [in this city]",
-			"[+1 Food, +1 Culture] from [Habitation Dome] tiles [in this city]"
+			"[+1 Food, +1 Culture] from [Habitation Dome] tiles [in this city]",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Food]"
 		],
 		"shortcutKey": "F",
 		"civilopediaText": [
@@ -84,7 +86,7 @@
 			"[+1 Gold, +1 Happiness] from [Gemlike] tiles [in this city]",
 			"[+1 Gold, +1 Culture] from [Fauna] tiles [in this city]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+5 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "T",
 		"civilopediaText": [
@@ -100,6 +102,32 @@
 			{
 				"text": "Alliance solar energy collector that harness energy of the sun to power Alliance production facility."
 			}
+		]
+	},
+	{
+		"name": "Sanctuary Base",
+		"terrainsCanBeBuiltOn": ["Lands"],
+		"turnsToBuild": 10,
+		"techRequired": "Next-Gen Armaments",
+		"uniques": [
+			"Can carry [4] [Aerocraft] units",
+			"[+20]% Strength bonus for [Military] units within [3] tiles",
+			"[Military] Units adjacent to this tile heal [20] HP per turn when healing",
+			"Gives a defensive bonus of [25]%",
+			"Can be built just outside your borders",
+        		"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built"
+		],
+		"shortcutKey": "O",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Sanctuary Base",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{ "text": "A massive, strategic defensive structure" }
 		]
 	}
 ]
