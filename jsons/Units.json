@@ -35,7 +35,7 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 160,
-		"requiredTech": "Next-Gen Armament",
+		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
