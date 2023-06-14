@@ -101,8 +101,8 @@
 			"[+50]% Strength <vs [Infantry] units>",
 			"[+50]% Strength <vs [Stealth Infantry] units>",
 			"[+50]% Strength <vs [Sniper] units>",
-			"May Paradrop up to [3] tiles from inside friendly territory",
-			"May Paradrop up to [3] tiles from outside friendly territory",
+			"May Paradrop up to [3] tiles from inside of friendly territory",
+			"May Paradrop up to [3] tiles from outside of friendly territory",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blue Infantry","Horus Eye MK 1","United Will"],
