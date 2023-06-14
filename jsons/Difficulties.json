@@ -42,7 +42,7 @@
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0.25,
 		"barbarianSpawnDelay": 0,
-		"playerBonusStartingUnits": ["Seraphim"],
+		"playerBonusStartingUnits": [],
 		"aiCityGrowthModifier": 0.75,
 		"aiUnitCostModifier": 0.75,
 		"aiBuildingCostModifier": 0.75,
