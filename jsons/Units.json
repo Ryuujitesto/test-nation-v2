@@ -1493,6 +1493,45 @@
 		]
 	},
 	{
+		"name": "Torrent",
+		"unitType": "Siege",
+		"replaces": "Missile Artillery",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 2,
+		"range": 4,
+		"strength": 30,
+		"rangedStrength": 40,
+		"cost": 440,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Promethine",
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"[+1] Sight",
+			"Can see over obstacles",
+			"Ranged attacks may be performed over obstacles",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Torrent",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."
+			}
+		]
+	},
+	{
 		"name": "Aegis",
 		"unitType": "Civilian",
 		"replaces": "Tactical Mobile Uplink",
