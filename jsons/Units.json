@@ -24,7 +24,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "Trained by African Union veterans, these militia forces are the first line of defense of local African Union colonies." }
+			{ "text": "Alliance close range infantry unit that has a role of scout unit. Rifleman is equiped with light camouflage infantry armor, rifle and electromagnetic smoke grenade." }
 		]
 	},
         {
@@ -53,7 +53,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "More akin to a permanently-hired mercenary unit." }
+			{ "text": "Alliance close range infantry unit that has a role of frontline unit. Assault is equiped with heavy infantry armor and automatic rifle attached with underbarrel HE grenade launcher." }
 		]
 	},
         {
@@ -85,7 +85,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "A more all-terrain sort of sniper." }
+			{ "text": "Alliance medium range infantry unit that has a role of destroyer unit. Grenadier is equiped with heavy camouflage infantry armor and handheld rotary HE grenade launcher." }
 		]
 	},
         {
@@ -115,7 +115,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "Their exoskeletons make them able to do what no other soldiers are sane enough to do: bring a knife into a gunfight. But it's a pretty big knife, after all." }
+			{ "text": "Alliance close range infantry unit that has a role of frontline unit. Fire Assault is equiped with hardened exoskeleton armor, jumpjet booster, land stealth detection and Plasma flamethrower." }
 		]
 	},
 	{
@@ -144,7 +144,7 @@
 				"imageSize": 64
 			},
 			{
-				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
+				"text": "Alliance long range infantry unit that has a role of destroyer unit. Heavy Assault is equiped with exoskeleton armor and PRMVL (Portable Rocket Missile Variable Launcher)."
 			}
 		]
 	},
@@ -180,7 +180,7 @@
 				"Separator": true
 			},
 			{
-				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
+				"text": "Alliance long range infantry unit that has a role of destroyer unit. Sniper is equiped with heavy camouflage exoskeleton armor and (Cobra) electromagnetic sniper."
 			}
 		]
 	},
@@ -212,7 +212,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
+				"text": "Alliance close range infantry unit that has a role of frontline unit. Cerberus is equiped with power armor, short range jump jet and variable gun Matilda (short range rocket, high caliber gun and vibrowave sword)."
 			}
 		]
 	},
@@ -246,7 +246,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "Now with added zeal fueling their rampage. Witness them!" }
+			{ "text": "Alliance close range armored unit that has a role of scout unit. Coyote is equiped with light vehicle armor, energy efficient fast engine and turret machine gun." }
 		]
 	},
         {
@@ -280,7 +280,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+				"text": "Alliance close range armored unit that has a role of frontline unit. Fortress is equiped with heavy vehicle armor, armor piercing machine gun and high heat flamethrower."
 			}
 		]
 	},
@@ -318,7 +318,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Wholly remote-operated, these rovers are equipped with small arms."
+				"text": "Alliance medium range armored unit that has a role of destroyer unit. Armadillo is equiped with hardened vehicle armor, portable construction kit and turret rotary autogun."
 			}
 		]
 	},
@@ -356,7 +356,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
+				"text": "Alliance medium range armored unit that has a role of destroyer unit. Hammer is equiped with light tank armor and turret cannon."
 			}
 		]
 	},
@@ -394,7 +394,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
+				"text": "Alliance close range armored unit that has a role of destroyer unit. Zeus is equiped with Heavy energy tank armor, missile launcher and high thermoelectric rail cannon."
 			}
 		]
 	},
@@ -432,7 +432,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
+				"text": "Alliance long range armored unit that has a role of destroyer unit. Jaguar is equiped with Heavy tank armor and turret hyper velocity rail cannon."
 			}
 		]
 	},
@@ -800,7 +800,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Small, fast and highly annoying, they are nevertheless good against infantry."
+				"text": "Alliance close range drone unit that has a role of scout unit. Cyclone is equiped with all terain stealth sensor, light aviation armor and turret machinegun."
 			}
 		]
 	},
@@ -832,7 +832,7 @@
 		"attackSound": "jetgun",
 		"civilopediaText": [
 			{
-				"text": "Blue Streak's own design, it is designed to hit enemy armor hard and fast while still keeping a high speed and low drag. Its sensor suite is also optimized to detect distant threats."
+				"text": "Alliance aerocraft unit that specialize attacking ground unit. Hawk equiped with heavy aviation armor, ground precision sensor, quad hellfire missiles and turret hyper machinegun."
 			}
 		]
 	},
@@ -865,7 +865,7 @@
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
-				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
+				"text": "Alliance drone unit that specialize attacking air unit. Vertex equiped with light hardened aviation armor, air precision sensor and octa mydron missiles."
 			}
 		]
 	},
@@ -972,7 +972,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Semi-autonomous combat helicopters whose pilots use mind-machine interface technology to induce dragonfly-like agility."
+				"text": "Alliance helicopter unit that has a role of destroyer unit. Dragonfly equiped with heavy hardened aviation armor, rotary laser cannon and octa stygion missiles."
 			}
 		]
 	},
@@ -1014,7 +1014,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Taking notes from Darters, these flocks of AI-controlled drones operate as if they are a single organism. Their combat algorithms are enhanced when there are more units near them."
+				"text": "Alliance swarm drone unit that has a role of destroyer unit. Wasp equiped with nano devouring unit and super corrosive acid."
 			}
 		]
 	},
@@ -1599,7 +1599,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Their AI-assisted, personal holographic projectors can both function as a cloaking field or a way to confuse, disorient, and reduce the enemy's morale. Does cost a hefty bandwidth per unit."
+				"text": "Alliance close range robotic unit that has a role of stealth unit. SPARKS is equiped with camouflage robotic armor, cyber hacking unit, and high plasma rifle."
 			}
 		]
 	},
@@ -1634,7 +1634,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Equipped with a cloak of adaptive optical camo, these units are practically invisible from afar."
+				"text": "Alliance medium range infantry unit that has a role of stealth unit. XCOM is equiped with camouflage power armor, cyber hacking unit, and high Ultraviolet laser rifle."
 			}
 		]
 	},
