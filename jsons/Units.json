@@ -674,7 +674,7 @@
 		"uniques": [
 			"[+100]% Strength <vs [Submarine] units> <when attacking>",
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
-			"Can carry [2] [Cruise Missile] units",
+			"Can carry [2] [Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -1059,8 +1059,10 @@
 		"replaces": "Clone Trooper",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
-		"strength": 40,
-		"cost": 440,
+		"range": 3,
+		"strength": 50,
+		"rangedStrength": 60,
+		"cost": 660,
 		"requiredTech": "Satellite Networks",
 		"requiredResource": "Promethine",
 		"uniques": [
