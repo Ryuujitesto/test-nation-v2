@@ -1453,7 +1453,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Equipped with an anti-air missile salvo, these nimble vehicles can take down pesky fliers that wander into their operational range."
+				"text": "Alliance medium range armored unit that has a role of support unit. Porcupine is equiped with light armor, air sensor unit, machinegun and anti air missile."
 			}
 		]
 	},
@@ -1490,7 +1490,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Equipped with fire-and-forget missiles, these rovers could threaten a fledgling colony."
+				"text": "Alliance medium range armored unit that has a role of support unit. Typhoon is equiped with medium armor, air sensor unit and anti air missile."
 			}
 		]
 	},
@@ -1529,7 +1529,7 @@
 				"Separator": true
 			},
 			{
-				"text": "With its payload of smart rockets, this armored unit brings ruin to fortified cities."
+				"text": "Alliance long range armored unit that has a role of destroyer unit. Torrent is equiped with medium armor and multi range missile."
 			}
 		]
 	},
