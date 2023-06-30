@@ -463,7 +463,7 @@
 				"Separator": true
 			},
 			{
-				"text": "These speedy vessels can cruise on the coasts, and perhaps also the oceans later on."
+				"text": "Alliance close range Naval unit that has a role of scout unit. Caiman is equiped with light naval armor, rotary machinegun and portable contruction unit."
 			}
 		]
 	},
@@ -503,7 +503,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Semi-amphibious vehicles, they excel at crossing rivers, less so when attacking from the sea."
+				"text": "Alliance medium range hover unit that has a role of destroyer unit. Delta is equiped with light hover armor and rotary autogun."
 			}
 		]
 	},
@@ -535,7 +535,7 @@
 				"Separator": true
 			},
 			{
-				"text": "An upgunned hydrofoil with extra armor, they prowl the seas with impunity."
+				"text": "Alliance close range Naval unit that has a role of scout unit. Caiman mk 2 is equiped with light hardened naval armor, rotary cannon, water stealth sensor and portable contruction unit."
 			}
 		]
 	},
@@ -576,7 +576,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "An armored, upgunned hovercraft." }
+			{ "text": "Alliance medium range hover unit that has a role of destroyer unit. Delta mk 2 is equiped with light hardened hover armor, water stealth sensor and heavy rotary cannon." }
 		]
 	},
 	{
@@ -610,7 +610,7 @@
 				"Separator": true
 			},
 			{
-				"text": "A serious combat ship, they pack firepower in a compact and fast hull."
+				"text": "Alliance close range Naval unit that has a role of frontline unit. Alligator is equiped with heavy naval armor and large caliber naval cannon."
 			}
 		]
 	},
@@ -654,7 +654,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Armed with advanced missiles, these could double as floating missile platforms."
+				"text": "Alliance long range Naval unit that has a role of destroyer unit. Poseidon is equiped with heavy naval armor, anti air missiles and multi range missiles."
 			}
 		]
 	},
@@ -690,7 +690,7 @@
 				"Separator": true
 			},
 			{
-				"text": "These sneaky vessels prowl the depths mostly undetected by other ships."
+				"text": "Alliance long range Naval unit that has a role of stealth unit. Barracuda is equiped with heavy naval armor, water stealth system, water stealth sensor, special missile launcher, long range missiles and quad torpedoes launcher."
 			}
 		]
 	},
@@ -728,7 +728,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Massive and powerful, this ship sends a message of military might."
+				"text": "Alliance long range Naval unit that has a role of frontline unit. Viking is equiped with heavy hardened energy naval armor, water stealth sensor and heavy high thermoelectric rail naval cannon."
 			}
 		]
 	},
@@ -766,7 +766,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Augmented with adaptive optical and sonar-deflecting camouflage, they are even harder to spot while they prowl the seas."
+				"text": "Alliance long range Naval unit that has a role of stealth unit. Barracuda mk 2 is equiped with heavy hardened naval armor, water stealth system, water stealth sensor, special missile launcher, long range missiles and octa torpedoes launcher."
 			}
 		]
 	},
@@ -1049,7 +1049,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+				"text": "Alliance close range hover unit that has a role of destroyer unit. Leviathan is equiped with hardened hover armor, aerocraft launcher and quad autocanon."
 			}
 		]
 	},
@@ -1088,7 +1088,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Basically a hovering airstrip, these can launch and retrieve aircraft from wherever it roams."
+				"text": "Alliance medium range hover unit that has a role of destroyer unit. Leviathan mk 2 is equiped with heavy ultra hardened hover armor, aerocraft launcher, special missiles launcher and octa ultra autocanon."
 			}
 		]
 	},
@@ -1122,7 +1122,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Powered by an antimatter reactor, this graviton-bore cannon unit can erase a city off the map in a literal sense."
+				"text": "Alliance long range siege unit that has a role of destroyer unit. Solaris is equiped with heavy hardened energy armor and gamma ray burst cannon."
 			}
 		]
 	},
@@ -1147,7 +1147,7 @@
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
-				"text": "Remotely controlled single-use missiles for anti-armor operations."
+				"text": "Alliance special missile that targeting armored unit."
 			}
 		]
 	},
@@ -1174,7 +1174,7 @@
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
-				"text": "Remotely controlled, single-use hypersonic missiles exclusively built for anti-satellite operations."
+				"text": "Alliance special missile that targeting satellite."
 			}
 		]
 	},
@@ -1199,7 +1199,7 @@
 		"attackSound": "missile",
 		"civilopediaText": [
 			{
-				"text": "Satellite-guided missile with enough payload to neutralize coastal defences."
+				"text": "Alliance special missile that targeting city and building."
 			}
 		]
 	},
@@ -1229,7 +1229,7 @@
 		"attackSound": "nuke",
 		"civilopediaText": [
 			{
-				"text": "Armed with the looming threat of mutually assured destruction."
+				"text": "Alliance special missile that carrying hydrogen bomb."
 			}
 		]
 	},
@@ -1266,7 +1266,7 @@
 				"Separator": true
 			},
 			{
-				"text": "A legged vehicle platform, they tend to be mobile when compared to tanks but suffer from weak armor."
+				"text": "Alliance close range mech unit that has a role of scout unit. Raven is equiped with light mech armor, land stealth sensor, and rotary autocannon."
 			}
 		]
 	},
@@ -1301,7 +1301,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Recent technological advances allow for stronger servos, which results in more armor and armamanets to be installed on mechs."
+				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
 			}
 		]
 	},
@@ -1341,7 +1341,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Highly mobile and armed with missiles that could level a city, they are a threat to settlements everywhere."
+				"text": "Alliance long range mech unit that has a role of destroyer unit. Jourmungard is equiped with heavy mech armor and advance tactical missile launcher."
 			}
 		]
 	},
@@ -1379,13 +1379,13 @@
 				"Separator": true
 			},
 			{
-				"text": "Armed with an extra large laser cannon, this mech requires an Ulframite fusion reactor to fire it. Extremely useful against armored units, but not that damaging to defensive buildings."
+				"text": "Alliance long range mech unit that has a role of destroyer unit. Marauder is equiped with heavy mech armor and hyper laser."
 			}
 		]
 	},
 	{
 		"name": "Mammoth",
-		"unitType": "Close Range Mech",
+		"unitType": "Ranged Mech",
 		"replaces": "Siege Walker",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
@@ -1418,7 +1418,7 @@
 				"Separator": true
 			},
 			{
-				"text": "A heavy quadrupedal mech sporting a variety of weapons, this walking fortress is a threat to cities."
+				"text": "Alliance long range siege unit that has a role of destroyer unit. Mammoth is equiped with heavy hardened armor and hyper velocity rail cannon."
 			}
 		]
 	},
@@ -1563,7 +1563,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Mobile command centers, linked together via satellites, delivering real-time updates of the combat situation."
+				"text": "Alliance support unit, Aegis is equiped with energy force defence matrix and satellite communication network."
 			}
 		]
 	},
@@ -1677,7 +1677,7 @@
 				"Separator": true
 			},
 			{
-				"text": "These tanks are equipped with an AI-assisted portable holographic projector, making them hard to be seen on the battlefield."
+				"text": "Alliance long range armored unit that has a role of stealth unit. Chameleon is equiped with heavy armor, optical stealth system, land stealth sensor and hyper ultraviolet canon."
 			}
 		]
 	}
