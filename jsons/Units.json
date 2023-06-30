@@ -161,7 +161,7 @@
 		"requiredTech": "Lasers",
 		"uniques": [
 			"[+1] Sight",
-			"[+25]% Strength <when attacking>"
+			"[+25]% Strength <when attacking>",
 			"[+50]% Strength <vs [Infantry] units> <when attacking>",
                         "[+50]% Strength <vs [Stealth Infantry] units> <when attacking>",
                         "[+50]% Strength <vs [Sniper] units> <when attacking>",
@@ -413,7 +413,7 @@
 		"uniques": [
 			"[+100]% Strength <vs [Armored] units>",
 			"[+50]% Strength <vs [Mech] units>",
-                        "[+50]% Strength <when attacking>"
+                        "[+50]% Strength <when attacking>",
                         "[+50]% Strength <when defending>",
                         "Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
@@ -483,7 +483,7 @@
 		"uniques": [
 			"Armored",
 			"Hovercraft",
-			"[+25]% Strength <when attacking>"
+			"[+25]% Strength <when attacking>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
 			"May attack when embarked",
@@ -635,7 +635,7 @@
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Ranged attacks may be performed over obstacles"
+			"Ranged attacks may be performed over obstacles",
 			"Can carry [2] [Anti-Satellite Missile] units",
 			"Can carry [5] [Cruise Missile] units",
 			"Can carry [5] [Short-Range Missile] units",
