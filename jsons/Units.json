@@ -566,7 +566,7 @@
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["United Will"],
+		"promotions": ["United Will","Horus Eye MK 2"],
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
