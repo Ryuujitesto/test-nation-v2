@@ -51,7 +51,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Revolutionary technology and engineering from the Alliance, a combination of habitation, industry, research and food into one giant complex district center on water."
+				"text": "Alliance food plantation utilises full automation, therefore maximising all 3 dimensional space."
 			}
 		]
 	},
@@ -100,7 +100,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance solar energy collector that harness energy of the sun to power Alliance production facility."
+				"text": "Alliance supply base responsible for distributing resource and money from nearby territory."
 			}
 		]
 	},
@@ -121,6 +121,7 @@
 		"techRequired": "Next-Gen Armaments",
 		"uniques": [
 			"Can carry [4] [Aerocraft] units",
+			"[Aerocraft] Units in this tile heal [15] HP per turn when healing",
 			"Gives a defensive bonus of [10]%",
 			"Can be built just outside your borders",
         		"Constructing it will take over the tiles around it and assign them to your closest city",
@@ -135,7 +136,7 @@
 			{
 				"Separator": true
 			},
-			{ "text": "A massive, strategic defensive structure" }
+			{ "text": "Alliance base equiped with four-way airline for aerocraft to take off and repair station for aerocraft." }
 		]
 	}
 ]
