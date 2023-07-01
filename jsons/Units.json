@@ -1506,7 +1506,6 @@
 		"cost": 440,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
-		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
 			"[+25]% Strength <when attacking>",
 			"[+200]% Strength <vs cities> <when attacking>",
