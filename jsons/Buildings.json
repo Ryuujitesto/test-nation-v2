@@ -1,29 +1,39 @@
 [ 
   {
-		"name": "Orbital Development Center",
+		"name": "X Workshop",
 		"uniqueTo": "Alliance of New Federation",
 		"cost": 200,
-		"science": 9,
-		"culture": 9,
-		"production": 9,
-		"food": 9,
-		"gold": 9,
-                "greatPersonPoints": {"Great Engineer": 2},
-                "greatPersonPoints": {"Great Scientist": 1},
+	        "maintenance": 5,
+		"science": 4,
+		"production": 4,
 		"uniques": [
-			"Orbital",
-                        "Provides [6] [Digital Storage Space]",
-                        "Provides [1] [Antimatter]",
-                        "Provides [1] [Gravitix]",
-                        "Provides [1] [Yairmite]",
-                        "Provides [1] [Ulframite]",
-                        "[+25]% [Production] [in this city]"
+			"[+3 production, +3 science] <starting from the [Landfall era]>",
+			"[+3 production, +3 science, +2 maintenance] <starting from the [Exploration era]>",
+			"[+3 production, +3 science, +2 maintenance] <starting from the [Colonization era]>",
+			"[+3 production, +3 science, +2 maintenance] <starting from the [Halcyon era]>",
+			"[+3 production, +3 science, +2 maintenance] <starting from the [Realization era]>",
+			"[+3 production, +3 science, +2 maintenance] <starting from the [Transcendental era]>",
+			"[+3 production, +3 science, +2 maintenance] <starting from the [Singularity era]>",
+			"[+90]% Production when constructing [All] wonders [in all cities]"
 		],
-		"requiredTech": "Cosmonautics",
-		"requiredBuilding": "Orbital Launch Facility",
+		"requiredTech": "Computing",
 		"civilopediaText": [
 			{
-				"text": "Alliance orbital satellite that being design as a all in one development center that contain self sustaining human habitation, zero gravity production center for space industry and space research station."
+				"text": "Alliance modular research and production facility that can be improved according technology breakthrough."
 			}
 		]
 	},
+	{
+		"name": "MFEB Building",
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+5] Unit Supply per [2] population [in this city]"
+		],
+		"requiredTech": "Pioneer Administration",
+		"civilopediaText": [
+			{
+				"text": "Alliance special department to increase military force."
+			}
+		]
+	}
