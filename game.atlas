@@ -564,7 +564,7 @@ ImprovementIcons/Biodome City
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Citadel
+ImprovementIcons/Airfield Base
   rotate: false
   xy: 328, 1240
   size: 100, 100
@@ -2551,7 +2551,7 @@ BuildingIcons/Pioneer Speakeasy
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Planetary Mindlink
+BuildingIcons/MFEB Building
   rotate: false
   xy: 1084, 1300
   size: 100, 100
@@ -2803,7 +2803,7 @@ BuildingIcons/Synthetic Recycling Station
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tectonic Stabilizer
+BuildingIcons/X Workshop
   rotate: false
   xy: 1516, 544
   size: 100, 100
@@ -3034,7 +3034,7 @@ NationIcons/Somatek Biomedical
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Thespiaux Medianet
+NationIcons/Alliance of New Federation
   rotate: false
   xy: 1192, 112
   size: 100, 100
@@ -4615,7 +4615,7 @@ EmojiIcons/Gold
   orig: 50, 50
   offset: 0, 0
   index: -1
-ImprovementIcons/Waystation
+ImprovementIcons/Supply Center
   rotate: false
   xy: 4, 192
   size: 100, 100
@@ -4937,7 +4937,7 @@ TileSets/FantasyHex/Tiles/Chitin
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Citadel
+TileSets/FantasyHex/Tiles/Airfield Base
   rotate: false
   xy: 222, 4
   size: 32, 36
@@ -5735,7 +5735,7 @@ TileSets/FantasyHex/Tiles/Vitamass
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Waystation
+TileSets/FantasyHex/Tiles/Supply Center
   rotate: false
   xy: 1616, 252
   size: 32, 32
@@ -6980,7 +6980,7 @@ BuildingIcons/Urban Commune
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/ARK District
+ImprovementIcons/3D Farm
   rotate: false
   xy: 4, 268
   size: 100, 100
@@ -7085,7 +7085,7 @@ NationIcons/Slavic Federation
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/ARK District
+TileSets/FantasyHex/Tiles/3D Farm
   rotate: false
   xy: 4, 4
   size: 32, 40
