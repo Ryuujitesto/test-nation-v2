@@ -35,7 +35,7 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 160,
-		"requiredTech": "Frontier Armaments",
+		"requiredTech": "Military Ballistics",
 		"uniques": [
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
@@ -63,10 +63,10 @@
 		"uniqueTo": "Alliance of New Federation",
 		"range": 2,
 		"movement": 4,
-		"strength": 12,
-		"rangedStrength": 18,
+		"strength": 8,
+		"rangedStrength": 15,
 		"cost": 190,
-		"requiredTech": "Military Ballistics",
+		"requiredTech": "Frontier Armaments",
 		"uniques": [
 			"[+25]% Strength <vs [Armored] units> <when attacking>",
                         "[+25]% Strength <vs [Mech] units> <when attacking>",
@@ -96,7 +96,7 @@
 		"movement": 3,
 		"strength": 25,
 		"cost": 270,
-		"requiredTech": "Exoskeletons",
+		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			"[+50]% Strength <vs [Infantry] units>",
 			"[+50]% Strength <vs [Stealth Infantry] units>",
@@ -128,7 +128,7 @@
 		"strength": 17,
 		"rangedStrength": 23,
 		"cost": 250,
-		"requiredTech": "Exoskeletons",
+		"requiredTech": "Missiles",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
                         "[+50]% Strength <vs [Mech] units> <when attacking>",
@@ -158,7 +158,7 @@
 		"strength": 22,
 		"rangedStrength": 28,
 		"cost": 300,
-		"requiredTech": "Lasers",
+		"requiredTech": "Exoskeletons",
 		"uniques": [
 			"[+1] Sight",
 			"[+25]% Strength <when attacking>",
@@ -257,7 +257,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 220,
-		"requiredTech": "Portable Power Sources",
+		"requiredTech": "Robotics",
 		"requiredResource": "Titanium",
 		"uniques": [
 			"[+25]% Strength",
@@ -266,7 +266,7 @@
                         "[+25]% Strength <vs [Sniper] units> <when attacking>",
                         "[+50]% Strength <when defending>",
 			"Only available <in cities with a [Rover Storage]>",
-			"Consumes [1] [Titanium]",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -292,7 +292,7 @@
 		"movement": 3,
 		"strength": 25,
 		"cost": 270,
-		"requiredTech": "Robotics",
+		"requiredTech": "Military Ballistics",
 		"requiredResource": "Titanium",
 		"uniques": [
 			"[+1] Sight",
@@ -304,7 +304,7 @@
 			"Can build [Land] improvements on tiles",
 			"Can move after attacking",
 			"Only available <in cities with a [Rover Storage]>",
-			"Consumes [1] [Titanium]",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -330,7 +330,7 @@
 		"movement": 5,
 		"strength": 30,
 		"cost": 330,
-		"requiredTech": "Composite Armor",
+		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units>",
@@ -341,7 +341,7 @@
 			"May withdraw before melee ([50]%)",
 			"Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [1] [Titanium]",
+			"Consumes [3] [Titanium]",
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -368,8 +368,8 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 550,
-		"requiredTech": "Lasers",
-		"requiredResource": "Promethine",
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Ulframite",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Armored] units>",
@@ -379,8 +379,8 @@
                         "[+75]% Strength <when attacking>",
                         "[+75]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Titanium]",
-			"Consumes [2] [Promethine]",
+			"Consumes [6] [Titanium]",
+			"Consumes [1] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -405,10 +405,10 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"range": 3,
-		"strength": 45,
+		"strength": 40,
 		"rangedStrength": 50,
 		"cost": 550,
-		"requiredTech": "Lasers",
+		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+100]% Strength <vs [Armored] units>",
@@ -417,7 +417,7 @@
                         "[+50]% Strength <when defending>",
                         "Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [2] [Titanium]",
+			"Consumes [4] [Titanium]",
 			"Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
@@ -445,10 +445,12 @@
 		"strength": 12,
 		"cost": 130,
 		"requiredTech": "Hydrodynamics",
+		"requiredResource": "Titanium",
 		"upgradesTo": "Caiman MK 2",
 		"uniques": [
 		        "[+25]% Strength <vs [Water] units> <when attacking>",
 			"Can build [Water] improvements on tiles",
+			"Consumes [1] [Titanium]",
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -515,13 +517,15 @@
 		"movement": 6,
 		"strength": 23,
 		"cost": 250,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech": "Astronomy",
+		"requiredResource": "Titanium",
 		"uniques": [
 		        "[+25]% Strength <vs [Water] units>",
 			"[+25]% Strength <when attacking>",
 			"May withdraw before melee ([50]%)",
 			"Can build [Water] improvements on tiles",
 			"Only available <in cities with a [Floating Harbor]>",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 2"],
@@ -549,8 +553,8 @@
 		"strength": 28,
 		"rangedStrength": 30,
 		"cost": 330,
-		"requiredTech": "Composite Armor",
-		"requiredResource": "Promethine",
+		"requiredTech": "Payload Delivery",
+		"requiredResource": "Titanium",
 		"uniques": [
 			"Armored",
 			"Hovercraft",
@@ -563,7 +567,7 @@
 			"Ignores terrain cost",
 			"Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [1] [Promethine]",
+			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 2"],
@@ -587,7 +591,7 @@
 		"movement": 6,
 		"strength": 40,
 		"cost": 440,
-		"requiredTech": "Alloy Microstructures",
+		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+1] Sight",
@@ -597,6 +601,7 @@
 			"Double movement in [Ocean]",
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [1] [Promethine]",
+			"Consumes [4] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -622,9 +627,9 @@
 		"movement": 3,
 		"range": 6,
 		"strength": 35,
-		"rangedStrength": 40,
+		"rangedStrength": 45,
 		"cost": 440,
-		"requiredTech": "Alloy Microstructures",
+		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"[+3] Sight",
@@ -640,7 +645,8 @@
 			"Can carry [5] [Cruise Missile] units",
 			"Can carry [5] [Short-Range Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [1] [Promethine]",
+			"Consumes [2] [Promethine]",
+			"Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -668,15 +674,16 @@
 		"strength": 35,
 		"rangedStrength": 35,
 		"cost": 380,
-		"requiredTech": "Composite Armor",
-		"requiredResource": "Titanium",
+		"requiredTech": "Alloy Microstructures",
+		"requiredResource": "Promethine",
 		"upgradesTo": "Barracuda MK 2"
 		"uniques": [
 			"[+100]% Strength <vs [Submarine] units> <when attacking>",
 			"[+100]% Strength <vs [Xeno Stealth Water] units>",
 			"Can carry [2] [Missile] units",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [2] [Titanium]",
+			"Consumes [1] [Promethine]",
+			"Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 2"],
@@ -704,8 +711,8 @@
 		"strength": 50,
 		"rangedStrength": 60,
 		"cost": 660,
-		"requiredTech": "Composite Armor",
-		"requiredResource": "Titanium",
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Ulframite",
 		"uniques": [
 			"[+1] Sight",
 			"[+100]% Strength <vs [Water] units>",
@@ -714,8 +721,9 @@
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [3] [Titanium]",
-			"Never appears as a Barbarian unit"
+			"Consumes [5] [Titanium]",
+			"Consumes [1] [Ulframite]",
+	                "Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 2"],
 		"attackSound": "shipguns",
@@ -743,7 +751,7 @@
 		"rangedStrength": 60,
 		"cost": 660,
 		"requiredTech": "Metamaterials",
-		"requiredResource": "Titanium",
+		"requiredResource": "Promethine",
 		"uniques": [
 			"[+2] Sight",
 			"[+200]% Strength <vs [Water] units>",
@@ -752,7 +760,8 @@
 			"Can carry [4] [Missile] units",
 			"Can carry [2] [Ragnarok] units",
 			"Only available <in cities with a [Naval Yard]>",
-			"Consumes [1] [Titanium]",
+			"Consumes [3] [Promethine]",
+			"Consumes [5] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 2"],
@@ -849,7 +858,6 @@
 		"cost": 330,
 		"requiredTech": "Strike Drones",
 		"uniques": [
-			"Drone",
 			"[+2] Sight",
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength when performing Air Sweep",
