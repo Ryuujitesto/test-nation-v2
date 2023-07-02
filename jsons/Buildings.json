@@ -5,16 +5,16 @@
 		"cost": 200,
 	        "maintenance": 5,
 		"science": 4,
-		"production": 4,
+		"production": 5,
 		"uniques": [
-			"[+3 production, +3 science] <starting from the [Landfall era]>",
-			"[+3 production, +3 science, +2 maintenance] <starting from the [Exploration era]>",
-			"[+3 production, +3 science, +2 maintenance] <starting from the [Colonization era]>",
-			"[+3 production, +3 science, +2 maintenance] <starting from the [Halcyon era]>",
-			"[+3 production, +3 science, +2 maintenance] <starting from the [Realization era]>",
-			"[+3 production, +3 science, +2 maintenance] <starting from the [Transcendental era]>",
-			"[+3 production, +3 science, +2 maintenance] <starting from the [Singularity era]>",
-			"[+90]% Production when constructing [All] wonders [in all cities]"
+			"[+5 production, +3 science] <starting from the [Landfall era]>",
+			"[+5 production, +3 science, +2 maintenance] <starting from the [Exploration era]>",
+			"[+5 production, +3 science, +2 maintenance] <starting from the [Colonization era]>",
+			"[+5 production, +3 science, +2 maintenance] <starting from the [Halcyon era]>",
+			"[+5 production, +3 science, +2 maintenance] <starting from the [Realization era]>",
+			"[+5 production, +3 science, +2 maintenance] <starting from the [Transcendental era]>",
+			"[+5 production, +3 science, +2 maintenance] <starting from the [Singularity era]>",
+			"[+90]% Production when constructing [All] wonders [in this city]"
 		],
 		"requiredTech": "Computing",
 		"civilopediaText": [
