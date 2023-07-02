@@ -1,0 +1,29 @@
+[ 
+  {
+		"name": "Orbital Development Center",
+		"uniqueTo": "Alliance of New Federation",
+		"cost": 200,
+		"science": 9,
+		"culture": 9,
+		"production": 9,
+		"food": 9,
+		"gold": 9,
+                "greatPersonPoints": {"Great Engineer": 2},
+                "greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"Orbital",
+                        "Provides [6] [Digital Storage Space]",
+                        "Provides [1] [Antimatter]",
+                        "Provides [1] [Gravitix]",
+                        "Provides [1] [Yairmite]",
+                        "Provides [1] [Ulframite]",
+                        "[+25]% [Production] [in this city]"
+		],
+		"requiredTech": "Cosmonautics",
+		"requiredBuilding": "Orbital Launch Facility",
+		"civilopediaText": [
+			{
+				"text": "Alliance orbital satellite that being design as a all in one development center that contain self sustaining human habitation, zero gravity production center for space industry and space research station."
+			}
+		]
+	},
