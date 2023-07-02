@@ -106,6 +106,7 @@
 	},
 	{
 		"name": "Airfield Base",
+		"uniqueTo": "Alliance of New Federation",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Grassland",
