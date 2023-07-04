@@ -8,12 +8,12 @@
 		"production": 5,
 		"uniques": [
 			"[+5 production, +3 science] <starting from the [Landfall era]>",
-			"[+5 production, +3 science, +2 maintenance] <starting from the [Exploration era]>",
-			"[+5 production, +3 science, +2 maintenance] <starting from the [Colonization era]>",
-			"[+5 production, +3 science, +2 maintenance] <starting from the [Halcyon era]>",
-			"[+5 production, +3 science, +2 maintenance] <starting from the [Realization era]>",
-			"[+5 production, +3 science, +2 maintenance] <starting from the [Transcendental era]>",
-			"[+5 production, +3 science, +2 maintenance] <starting from the [Singularity era]>",
+			"[+5 production, +3 science] <starting from the [Exploration era]>",
+			"[+5 production, +3 science] <starting from the [Colonization era]>",
+			"[+5 production, +3 science] <starting from the [Halcyon era]>",
+			"[+5 production, +3 science] <starting from the [Realization era]>",
+			"[+5 production, +3 science] <starting from the [Transcendental era]>",
+			"[+5 production, +3 science] <starting from the [Singularity era]>",
 			"[+90]% Production when constructing [All] wonders [in this city]"
 		],
 		"requiredTech": "Computing",
@@ -28,7 +28,8 @@
 		"maintenance": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+5] Unit Supply per [2] population [in this city]"
+			"[+5] Unit Supply per [2] population [in this city]",
+			"New [Military] units start with [30] Experience [in this city]",
 		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
