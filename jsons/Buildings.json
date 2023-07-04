@@ -2,7 +2,7 @@
   {
 		"name": "X Workshop",
 		"uniqueTo": "Alliance of New Federation",
-		"cost": 200,
+		"cost": 100,
 	        "maintenance": 5,
 		"science": 4,
 		"production": 5,
@@ -25,8 +25,9 @@
 	},
 	{
 		"name": "MFEB Building",
+		"uniqueTo": "Alliance of New Federation",
+		"cost": 100,
 		"maintenance": 5,
-		"hurryCostModifier": 25,
 		"uniques": [
 			"[+5] Unit Supply per [2] population [in this city]",
 			"New [Military] units start with [30] Experience [in this city]",
