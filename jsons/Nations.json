@@ -25,7 +25,6 @@
 		"uniqueName": "The alliance",
 		"uniques": [
 		        "[+2 Science, +10 Production, +2 Culture] <when not at war>",
-			"[-50]% Unhappiness from [Population] [in all cities]",
 			"[-50]% Culture cost of adopting new Policies <when not at war>"
                           ],
               	"cities": [
