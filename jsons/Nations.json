@@ -24,8 +24,9 @@
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "The alliance",
 		"uniques": [
-		        "[+3 Science, +5 Production, +3 Culture, +3 Happiness] <when not at war>",
-			"[-90]% Culture cost of adopting new Policies <when not at war>"
+		        "[+2 Science, +10 Production, +2 Culture] <when not at war>",
+			"[-50]% Unhappiness from [Population] [in all cities]",
+			"[-50]% Culture cost of adopting new Policies <when not at war>"
                           ],
               	"cities": [
 			"Dawn City",
