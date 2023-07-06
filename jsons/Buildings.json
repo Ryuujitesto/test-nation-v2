@@ -14,7 +14,7 @@
 			"[+2 Science, +5 Production] <starting from the [Realization era]>",
 			"[+2 Science, +5 Production] <starting from the [Transcendental era]>",
 			"[+2 Science, +5 Production] <starting from the [Singularity era]>",
-			"[+90]% Production when constructing [All] wonders [in this city]"
+			"[+50]% Production when constructing [All] wonders [in this city]"
 		],
 		"requiredTech": "Computing",
 		"civilopediaText": [
