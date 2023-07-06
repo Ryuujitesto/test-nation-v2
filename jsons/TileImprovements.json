@@ -22,7 +22,7 @@
 		],
 		"gold": 1,
 		"food": 1,
-		"turnsToBuild": 3,
+		"turnsToBuild": 5,
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
 			"[+1 Food] <after discovering [Xenobiology]>",
@@ -75,7 +75,7 @@
 		"culture": 1,
 		"happiness": 1,
 		"production": 1,
-		"turnsToBuild": 3,
+		"turnsToBuild": 5,
 		"techRequired": "Computing",
 		"uniques": [
 			"[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]",
