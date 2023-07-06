@@ -4,7 +4,7 @@
 		"unitType": "Infantry",
 		"replaces": "Frontier Militia",
 		"uniqueTo": "Alliance of New Federation",
-		"movement": 4,
+		"movement": 3,
 		"strength": 9,
 		"cost": 90,
 		"uniques": [
@@ -62,7 +62,7 @@
 		"replaces": "Colony Marksman",
 		"uniqueTo": "Alliance of New Federation",
 		"range": 2,
-		"movement": 4,
+		"movement": 3,
 		"strength": 9,
 		"rangedStrength": 15,
 		"cost": 160,
