@@ -28,6 +28,8 @@
 		"uniqueTo": "Alliance of New Federation",
 		"cost": 50,
 		"maintenance": 5,
+		"happiness": 2,
+		"culture": 2,
 		"uniques": [
 			"[+5] Unit Supply per [2] population [in this city]",
 			"New [Military] units start with [30] Experience [in this city]",
