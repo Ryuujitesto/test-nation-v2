@@ -32,6 +32,7 @@
 		"culture": 2,
 		"uniques": [
 			"[+5] Unit Supply per [2] population [in this city]",
+			"[-50]% Unhappiness from [Population] [in this city]",
 			"New [Military] units start with [30] Experience [in this city]",
 		],
 		"requiredTech": "Pioneer Administration",
