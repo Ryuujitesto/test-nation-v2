@@ -144,6 +144,7 @@
 	},
 	{
 		"name": "AGM Base",
+		"uniqueTo": "Alliance of New Federation",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean", "Lakes"],
 		"production": 1,
 		"turnsToBuild": 8,
