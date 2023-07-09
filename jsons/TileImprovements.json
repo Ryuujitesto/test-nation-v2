@@ -121,7 +121,7 @@
 			"Mycelium"
 		],
 		"turnsToBuild": 5,
-		"techRequired": "Next-Gen Armaments",
+		"techRequired": "Aeronautics",
 		"uniques": [
 			"Can carry [4] [Aerocraft] units",
 			"[Aerocraft] Units in this tile heal [15] HP per turn when healing",
