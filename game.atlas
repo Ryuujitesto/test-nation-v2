@@ -1523,7 +1523,7 @@ UnitIcons/Bugwolf
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Civil Protection Mecha
+UnitIcons/Guardian Knight
   rotate: false
   xy: 544, 1348
   size: 100, 100
@@ -5826,7 +5826,7 @@ TileSets/FantasyHex/Units/Bugwolf
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Civil Protection Mecha
+TileSets/FantasyHex/Units/Guardian Knight
   rotate: false
   xy: 342, 4
   size: 32, 28
@@ -6750,7 +6750,7 @@ TileSets/FantasyHex/Units/Vulture Combat Drone
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/War Casket
+TileSets/FantasyHex/Units/Warhammer
   rotate: false
   xy: 1022, 36
   size: 32, 28
@@ -6785,7 +6785,7 @@ TileSets/FantasyHex/Units/Wurm
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/ZANKER Mecha
+TileSets/FantasyHex/Units/Annihilator
   rotate: false
   xy: 1896, 264
   size: 32, 28
@@ -6799,7 +6799,7 @@ TileSets/FantasyHex/Units/Zero Point Ship Reactor
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/War Casket
+UnitIcons/Warhammer
   rotate: false
   xy: 112, 408
   size: 100, 100
@@ -6834,7 +6834,7 @@ UnitIcons/Wurm
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/ZANKER Mecha
+UnitIcons/Annihilator
   rotate: false
   xy: 652, 84
   size: 100, 100
@@ -7099,7 +7099,7 @@ TileSets/FantasyHex/Tiles/Aquaponics Area
   orig: 32, 40
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Jabal Drop Mecha
+TileSets/FantasyHex/Units/Seraphim
   rotate: false
   xy: 1192, 448
   size: 32, 28
@@ -7148,7 +7148,7 @@ TileSets/FantasyHex/Units/Fortress
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/Jabal Drop Mecha
+UnitIcons/Seraphim
   rotate: false
   xy: 328, 52
   size: 100, 100
@@ -7245,14 +7245,14 @@ TileSets/FantasyHex/Tiles/Solar Farm
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mnewer Attack Mecha
+TileSets/FantasyHex/Units/Cyclops
   rotate: false
   xy: 436, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/Mnewer Attack Mecha
+UnitIcons/Cyclops
   rotate: false
   xy: 112, 4
   size: 100, 100
