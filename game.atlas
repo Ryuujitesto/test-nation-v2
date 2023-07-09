@@ -2936,7 +2936,7 @@ ImprovementIcons/Mining Camp
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Offshore Platform
+ImprovementIcons/AGM Base
   rotate: false
   xy: 1300, 1732
   size: 100, 100
@@ -5483,7 +5483,7 @@ TileSets/FantasyHex/Tiles/Ocean
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Offshore Platform
+TileSets/FantasyHex/Tiles/AGM Base
   rotate: false
   xy: 1536, 324
   size: 32, 36
