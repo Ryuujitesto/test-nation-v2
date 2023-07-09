@@ -86,6 +86,7 @@
 			"[+1 Gold, +1 Production] from [Metallic] tiles [in this city]",
 			"[+1 Gold, +1 Happiness] from [Gemlike] tiles [in this city]",
 			"[+1 Gold, +1 Culture] from [Fauna] tiles [in this city]",
+			"Provides [1] [Digital Storage Space]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
