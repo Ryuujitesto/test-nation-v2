@@ -1649,7 +1649,7 @@ UnitIcons/Dog Soldier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Jaguar
+UnitIcons/Zeus
   rotate: false
   xy: 1516, 1456
   size: 100, 100
@@ -3762,7 +3762,7 @@ UnitIcons/Laser Satellite
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Zeus
+UnitIcons/Jaguar
   rotate: false
   xy: 112, 1516
   size: 100, 100
@@ -5966,7 +5966,7 @@ TileSets/FantasyHex/Units/Dog Soldier
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Jaguar
+TileSets/FantasyHex/Units/Zeus
   rotate: false
   xy: 1874, 480
   size: 32, 28
@@ -6386,7 +6386,7 @@ TileSets/FantasyHex/Units/Marauder
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Zeus
+TileSets/FantasyHex/Units/Jaguar
   rotate: false
   xy: 1108, 160
   size: 32, 28
