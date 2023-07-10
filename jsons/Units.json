@@ -195,8 +195,8 @@
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"[+1] Sight",
-			"[+50]% Strength <when attacking>",
-			"[+50]% Strength <when defending>",
+			"[+30]% Strength <when attacking>",
+			"[+30]% Strength <when defending>",
 			"May Paradrop up to [5] tiles from inside friendly territory",
 			"May Paradrop up to [5] tiles from outside of friendly territory",
 			"Never appears as a Barbarian unit"
@@ -1629,7 +1629,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 40,
-		"cost": 440,
+		"cost": 385,
 		"requiredResource": "Digital Storage Space",
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
@@ -1639,7 +1639,6 @@
 			"[+25]% Strength <vs [Siege] units> <when attacking>",
 			"[+25]% Strength <vs [Mech] units> <when attacking>",
 			"[+25]% Strength <when defending>",
-			"[+25]% to Flank Attack bonuses",
 			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Digital Storage Space]",
 			"Never appears as a Barbarian unit"
@@ -1666,8 +1665,8 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"range": 3,
-		"strength": 35,
-		"rangedStrength": 40,
+		"strength": 30,
+		"rangedStrength": 35,
 		"cost": 440,
 		"requiredTech": "Metamaterials",
 		"uniques": [
