@@ -190,7 +190,7 @@
 		"replaces": "Drop Trooper",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
-		"strength": 35,
+		"strength": 33,
 		"cost": 380,
 		"requiredTech": "Cybernetics",
 		"uniques": [
