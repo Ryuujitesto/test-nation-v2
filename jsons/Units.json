@@ -195,8 +195,8 @@
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"[+1] Sight",
-			"[+50]% Strength <when attacking>",
-			"[+75]% Strength <when defending>",
+			"[+25]% Strength <when attacking>",
+			"[+25]% Strength <when defending>",
 			"May Paradrop up to [5] tiles from inside friendly territory",
 			"May Paradrop up to [5] tiles from outside of friendly territory",
 			"Never appears as a Barbarian unit"
@@ -255,16 +255,15 @@
                 "replaces": "Light Buggy",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
-		"strength": 20,
-		"cost": 220,
+		"strength": 15,
+		"cost": 165,
 		"requiredTech": "Robotics",
 		"requiredResource": "Titanium",
 		"uniques": [
-			"[+25]% Strength",
-                        "[+25]% Strength <vs [Infantry] units> <when attacking>",
-                        "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
-                        "[+25]% Strength <vs [Sniper] units> <when attacking>",
-                        "[+50]% Strength <when defending>",
+			"[+25]% Strength <vs [Infantry] units>",
+                        "[+25]% Strength <vs [Stealth Infantry] units>",
+                        "[+25]% Strength <vs [Sniper] units>",
+                        "[+25]% Strength <when defending>",
 			"Only available <in cities with a [Rover Storage]>",
 			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -299,8 +298,6 @@
 			"[+25]% Strength <vs [Armored] units>",
 			"[+25]% Strength <vs [Mech] units>",
 			"[+25]% Strength <vs [Helicopter] units>",
-			"[+25]% Strength <when attacking>",
-			"[+25]% Strength <when defending>",
 			"Can build [Land] improvements on tiles",
 			"Can move after attacking",
 			"Only available <in cities with a [Rover Storage]>",
@@ -333,10 +330,9 @@
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"[+50]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Armored] units>",
 			"[+25]% Strength <vs [Mech] units>",
-			"[+50]% Strength <when attacking>",
-			"[+25]% Strength <when defending>",
+			"[+25]% Strength <when attacking>",
 			"[+20]% to Flank Attack bonuses",
 			"May withdraw before melee ([50]%)",
 			"Can move after attacking",
@@ -366,9 +362,9 @@
                 "replaces": "Laser Tank",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
-		"strength": 50,
-		"cost": 550,
-		"requiredTech": "Fusion Power",
+		"strength": 60,
+		"cost": 660,
+		"requiredTech": "Stasis Fields,
 		"requiredResource": "Ulframite",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -376,11 +372,11 @@
 			"[+50]% Strength <vs [Mech] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
 			"[-100]% Strength <vs [Satellite] units> <when attacking>",
-                        "[+75]% Strength <when attacking>",
-                        "[+75]% Strength <when defending>",
+                        "[+50]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [6] [Titanium]",
-			"Consumes [1] [Ulframite]",
+			"Consumes [1] [Yairmite]",
+			"Consumes [1] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -405,16 +401,15 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"range": 3,
-		"strength": 40,
-		"rangedStrength": 50,
-		"cost": 550,
+		"strength": 45,
+		"rangedStrength": 45,
+		"cost": 495,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"[+100]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Mech] units>",
-                        "[+50]% Strength <when attacking>",
-                        "[+50]% Strength <when defending>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Mech] units>",
+                        "[+25]% Strength <when attacking>",
                         "Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
@@ -597,7 +592,7 @@
 		"uniques": [
 			"[+1] Sight",
 			"[+50]% Strength <vs [Water] units>",
-			"[+50]% Strength <when attacking>",
+			"[+25]% Strength <when attacking>",
 			"May withdraw before melee ([100]%)",
 			"Double movement in [Ocean]",
 			"Only available <in cities with a [Naval Yard]>",
@@ -717,8 +712,8 @@
 		"uniques": [
 			"[+1] Sight",
 			"[+100]% Strength <vs [Water] units>",
-			"[+75]% Strength <when attacking>",
-			"[+100]% Strength <when defending>",
+			"[+25]% Strength <when attacking>",
+			"[+75]% Strength <when defending>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
 			"Only available <in cities with a [Naval Yard]>",
@@ -763,6 +758,7 @@
 			"Only available <in cities with a [Naval Yard]>",
 			"Consumes [3] [Promethine]",
 			"Consumes [5] [Titanium]",
+			"Consumes [1] [Antimatter]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 2"],
@@ -1014,7 +1010,7 @@
 			"[+100]% Strength <vs [Land] units>",
 			"[+50]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Water] units>",
-			"[+75]% Strength <when adjacent to a [Swarm Drones] unit>",
+			"[+50]% Strength <when adjacent to a [Swarm Drones] unit>",
 			"[+25]% Strength <when adjacent to a [Military] unit>",
 			"May withdraw before melee ([80]%)",
 			"Consumes [2] [Vitamass]",
@@ -1109,6 +1105,7 @@
 			"Consumes [5] [Promethine]",
 			"Consumes [2] [Antimatter]",
 			"Consumes [5] [Titanium]",
+			"Consumes [1] [Yairmite]",
 			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
@@ -1288,8 +1285,6 @@
 			"[+3] Movement",
 			"Can move after attacking",
 			"Ignores terrain cost",
-			"[+25]% Strength <vs [Armored] units>",
-			"[+25]% Strength <vs [Mech] units>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [3] [Titanium]",
 			"Never appears as a Barbarian unit"
@@ -1323,14 +1318,16 @@
 			"Mech",
 			"Can move after attacking",
 			"Ignores terrain cost",
-			"[+50]% Strength <vs [Mech] units>",
-			"[+50]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Mech] units>",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <when attacking>",
+                        "[+25]% Strength <when defending>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["United Will","Horus Eye MK 1"],
+		"promotions": ["United Will"],
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
 			{
@@ -1359,19 +1356,21 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
-			"[+250]% Strength <vs cities> <when attacking>",
+			"[100]% chance to intercept air attacks",
+			"[+225]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"Ignores terrain cost",
 			"Indirect Fire",
 			"[+25]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Mech] units> <when attacking>",
+			"[+25]% Strength <when attacking>",
+			"[+50]% Strength <vs [Air] units>",
 			"[+1] Sight",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
 			"Consumes [2] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["United Will","Horus Eye MK 1"],
+		"promotions": ["United Will"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -1400,17 +1399,20 @@
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
-			"[+25]% Strength <vs cities> <when attacking>",
+			"[100]% chance to intercept air attacks",
 			"Can move after attacking",
 			"Ignores terrain cost",
 			"[+50]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Mech] units> <when attacking>",
+			"[+50]% Strength <vs [Mech] units>",
+			"[+25]% Strength <vs [air] units>",
+			"[+25]% Strength <vs cities> <when attacking>",
+			"[+25]% to Flank Attack bonuses",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
 			"Consumes [3] [Promethine]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["United Will","Horus Eye MK 1"],
+		"promotions": ["United Will"],
 		"attackSound": "MissileLaunch",
 		"civilopediaText": [
 			{
@@ -1433,15 +1435,15 @@
 		"movement": 2,
 		"range": 6,
 		"strength": 40,
-		"rangedStrength": 55,
-		"cost": 600,
+		"rangedStrength": 50,
+		"cost": 550,
 		"requiredTech": "Mind-Machine Interface",
 		"requiredResource": "Ulframite",
 		"uniques": [
 			"Mech",
 			"[+2] Sight",
 			"[+400]% Strength <vs cities> <when attacking>",
-			"[+50]% Strength <when attacking>",
+			"[+25]% Strength <when attacking>",
 			"Must set up to ranged attack",
 			"Ignores terrain cost",
 			"Indirect Fire",
@@ -1450,7 +1452,7 @@
 			"Consumes [4] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["United Will","Horus Eye MK 1"],
+		"promotions": ["United Will"],
 		"attackSound": "RapidLaser2",
 		"civilopediaText": [
 			{
@@ -1472,9 +1474,9 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
 		"range": 2,
-		"strength": 10,
-		"rangedStrength": 15,
-		"cost": 100,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 220,
 		"requiredTech": "Aerial Drones",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -1693,22 +1695,23 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"range": 3,
-		"strength": 40,
-		"rangedStrength": 45,
+		"strength": 50,
+		"rangedStrength": 50,
 		"cost": 550,
 		"requiredTech": "Artificial Intelligence",
 		"requiredResource": "Promethine",
 		"uniques": [
 			"Can move after attacking",
 			"[+100]% Strength <vs [Armored] units>",
-			"[+25]% Strength <vs [Mech] units>",
-			"[+25]% Strength <vs [Siege] units>",
-			"[+50]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs [Mech] units>",
+			"[+20]% Strength <vs [Siege] units>",
 			"[+30]% to Flank Attack bonuses",
 			"May withdraw before melee ([50]%)",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
-			"Consumes [1] [Digital Storage Space]",
-			"Consumes [1] [Promethine]",
+			"Consumes [3] [Digital Storage Space]",
+			"Consumes [2] [Promethine]",
+			"Consumes [1] [Antimatter]",
+			"Consumes [5] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will","Horus Eye MK 1"],
@@ -1724,6 +1727,203 @@
 			},
 			{
 				"text": "Alliance long range armored unit that has a role of stealth unit. Chameleon is equiped with heavy armor, optical stealth system, land stealth sensor and hyper ultraviolet canon."
+			}
+		]
+	},
+	{
+		"name": "Cyclops",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Mech",
+		"movement": 4,
+		"range": 2,
+		"strength": 45,
+		"rangedStrength": 45,
+		"cost": 495,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"Ignores terrain cost",
+			"[+25]% Strength <vs [Mech] units>",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+20]% Strength bonus for [Military] units within [4] tiles",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [4] [Titanium]",
+			"Consumes [2] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cyclops",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Shamsy Electric Technologies' mainline mech, the Mnewer is equipped with not only SET's signature electric weaponry, but also a desert mobility system that allows them to move faster on deserts."
+			}
+		]
+	},
+	{
+		"name": "Guardian Knight",
+		"unitType": "Close Range Mech",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 45,
+		"cost": 490,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"Ignores terrain cost",
+			"[+25]% Strength <vs [Mech] units> ",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+50]% Strength <when defending>",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"May enter foreign tiles without open borders",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [5] [Titanium]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Guardian Knight",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
+			}
+		]
+	},
+	{
+		"name": "Seraphim",
+		"unitType": "Close Range Mech",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 60,
+		"cost": 660,
+		"requiredTech": "Stasis Fields",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"Ignores terrain cost",
+			"[+50]% Strength <vs [Mech] units> ",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[+75]% Strength <when defending>",
+			"May Paradrop up to [10] tiles from inside friendly territory",
+			"May Paradrop up to [10] tiles from outside of friendly territory",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [5] [Titanium]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will"],
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Seraphim",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
+			}
+		]
+	},
+	{
+		"name": "Annihilator",
+		"uniqueTo": "Alliance of New Federation",
+		"unitType": "Ranged Mech",
+		"movement": 4,
+		"range": 3,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 495,
+		"requiredTech": "Combat Mechas",
+		"requiredResource": "Antimatter",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"Ignores terrain cost",
+			"[+75]% Strength <vs [Mech] units>",
+			"[+50]% Strength <vs [Armored] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[+20]% to Flank Attack bonuses",
+			"Invisible to non-adjacent units",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [6] [Titanium]",
+			"Consumes [2] [Antimatter]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"hurryCostModifier": 20,
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Annihilator",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Shamsy Electric Technologies' mainline mech, the Mnewer is equipped with not only SET's signature electric weaponry, but also a desert mobility system that allows them to move faster on deserts."
+			}
+		]
+	},
+	{
+		"name": "Warhammer",
+		"unitType": "Close Range Mech",
+		"uniqueTo": "Alliance of New Federation",
+		"movement": 4,
+		"strength": 50,
+		"cost": 660,
+		"requiredTech": "Fusion Power",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Mech",
+			"Can move after attacking",
+			"Ignores terrain cost",
+			"[100]% chance to intercept air attacks",
+			"[+25]% Strength <when attacking>",
+			"[+25]% Strength <vs [Mech] units> ",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+50]% Strength <vs [Helicopter] units>",
+			"[+50]% Strength <vs [Air] units>",
+			"[+75]% Strength <vs cities>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [5] [Titanium]",
+			"Consumes [1] [Promethine]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["United Will","Horus Eye MK 1"],
+		"attackSound": "RapidLaser2",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Warhammer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
 			}
 		]
 	}
