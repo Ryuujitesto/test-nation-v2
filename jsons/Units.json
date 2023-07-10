@@ -1635,9 +1635,9 @@
 		"uniques": [
 			"Invisible to non-adjacent units",
 			"Can move after attacking",
-			"[+25]% Strength <vs [Armored] units> <when attacking>",
-			"[+25]% Strength <vs [Siege] units> <when attacking>",
-			"[+25]% Strength <vs [Mech] units> <when attacking>",
+			"[+25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Siege] units>",
+			"[+25]% Strength <vs [Mech] units>",
 			"[+25]% Strength <when defending>",
 			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Digital Storage Space]",
@@ -1671,7 +1671,7 @@
 		"requiredTech": "Metamaterials",
 		"uniques": [
 			"[+25]% Strength <when attacking>",
-			"[+35]% to Flank Attack bonuses",
+			"[+40]% to Flank Attack bonuses",
 			"May withdraw before melee ([100]%)",
 			"Ignores Zone of Control",
 			"Invisible to others",
