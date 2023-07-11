@@ -40,7 +40,7 @@
                         "[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
                         "[+25]% Strength <vs [Sniper] units>",
-			"[+50]% Strength <with [50]% chance> <when attacking>",
+			"[+25]% Strength <with [50]% chance> <when attacking>",
                         "Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blue Infantry","United Will"],
@@ -130,10 +130,11 @@
 		"cost": 240,
 		"requiredTech": "Missiles",
 		"uniques": [
-			"[+50]% Strength <vs [Armored] units> <when attacking>",
-                        "[+50]% Strength <vs [Mech] units> <when attacking>",
-                        "[+50]% Strength <vs [Helicopter] units> <when attacking>",
-			"[+50]% Strength <vs cities> <when attacking>",
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
+                        "[+25]% Strength <vs [Mech] units> <when attacking>",
+                        "[+25]% Strength <vs [Helicopter] units> <when attacking>",
+			"[+25]% Strength <vs [Drone] units> <when attacking>",
+			"[+25]% Strength <vs cities> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blue Infantry","United Will"],
@@ -162,9 +163,9 @@
 		"uniques": [
 			"[+1] Sight",
 			"[+25]% Strength <when attacking>",
-			"[+50]% Strength <vs [Infantry] units> <when attacking>",
-                        "[+50]% Strength <vs [Stealth Infantry] units> <when attacking>",
-                        "[+50]% Strength <vs [Sniper] units> <when attacking>",
+			"[+25]% Strength <vs [Infantry] units> <when attacking>",
+                        "[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
+                        "[+25]% Strength <vs [Sniper] units> <when attacking>",
 			"Can see over obstacles",
 			"Ranged attacks may be performed over obstacles",
 			"Never appears as a Barbarian unit"
