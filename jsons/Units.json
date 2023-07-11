@@ -71,6 +71,7 @@
 			"[+25]% Strength <vs [Armored] units> <when attacking>",
                         "[+25]% Strength <vs [Mech] units> <when attacking>",
                         "[+25]% Strength <vs [Helicopter] units> <when attacking>",
+			"[+25]% Strength <vs [Drone] units> <when attacking>",
 			"[+25]% Strength <vs cities> <when attacking>",
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"Never appears as a Barbarian unit"
