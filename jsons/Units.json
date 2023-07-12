@@ -193,7 +193,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
 		"strength": 40,
-		"cost": 380,
+		"cost": 440,
 		"requiredTech": "Cybernetics",
 		"uniques": [
 			"[+1] Sight",
@@ -404,7 +404,7 @@
 		"range": 3,
 		"strength": 45,
 		"rangedStrength": 45,
-		"cost": 495,
+		"cost": 490,
 		"requiredTech": "Orbital Deterrents",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -474,7 +474,7 @@
 		"range": 1,
 		"strength": 15,
 		"rangedStrength": 17,
-		"cost": 190,
+		"cost": 180,
 		"requiredTech": "Hovercrafts",
 		"requiredResource": "Titanium",
 		"upgradesTo": "Delta MK 2",
@@ -513,7 +513,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 6,
 		"strength": 20,
-		"cost": 250,
+		"cost": 220,
 		"requiredTech": "Astronomy",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -585,7 +585,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 6,
 		"strength": 35,
-		"cost": 440,
+		"cost": 380,
 		"requiredTech": "Composite Armor",
 		"requiredResource": "Promethine",
 		"uniques": [
@@ -666,7 +666,7 @@
 		"range": 3,
 		"strength": 34,
 		"rangedStrength": 34,
-		"cost": 360,
+		"cost": 370,
 		"requiredTech": "Alloy Microstructures",
 		"requiredResource": "Promethine",
 		"upgradesTo": "Barracuda MK 2"
@@ -1007,7 +1007,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 6,
 		"strength": 50,
-		"cost": 605,
+		"cost": 550,
 		"requiredTech": "Hive Mind",
 		"requiredResource": "Vitamass",
 		"uniques": [
@@ -1282,15 +1282,17 @@
 		"unitType": "Close Range Mech",
 		"replaces": "Recon Mecha",
 		"uniqueTo": "Alliance of New Federation",
-		"movement": 5,
-		"strength": 35,
-		"cost": 380,
+		"movement": 6,
+		"strength": 33,
+		"cost": 360,
 		"requiredTech": "Mecha Prototypes",
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"[+2] Sight",
-			"[+3] Movement",
+			"[+25]% Strength <vs [Infantry] units>",
+                        "[+25]% Strength <vs [Stealth Infantry] units>",
+                        "[+25]% Strength <vs [Sniper] units>",
 			"Can move after attacking",
 			"Ignores terrain cost",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
@@ -1328,8 +1330,8 @@
 			"Ignores terrain cost",
 			"[+25]% Strength <vs [Mech] units>",
 			"[+25]% Strength <vs [Armored] units>",
-			"[+25]% Strength <when attacking>",
-                        "[+25]% Strength <when defending>",
+			"[-20]% Strength for enemy [Mech] units in within [2] tiles",
+			"[-20]% Strength for enemy [Armored] units within [2] tiles",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
 			"Consumes [1] [Promethine]",
@@ -1365,13 +1367,12 @@
 		"uniques": [
 			"Mech",
 			"[100]% chance to intercept air attacks",
-			"[+225]% Strength <vs cities> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"Ignores terrain cost",
 			"Indirect Fire",
 			"[+25]% Strength <vs [Armored] units>",
 			"[+25]% Strength <when attacking>",
-			"[+50]% Strength <vs [Air] units>",
 			"[+1] Sight",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
@@ -1414,7 +1415,7 @@
 			"[+50]% Strength <vs [Mech] units>",
 			"[+25]% Strength <vs [air] units>",
 			"[+25]% Strength <vs cities> <when attacking>",
-			"[+25]% to Flank Attack bonuses",
+			"[+20]% to Flank Attack bonuses",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [4] [Titanium]",
 			"Consumes [3] [Promethine]",
@@ -1449,7 +1450,7 @@
 		"requiredResource": "Ulframite",
 		"uniques": [
 			"Mech",
-			"[+2] Sight",
+			"[+3] Sight",
 			"[+400]% Strength <vs cities> <when attacking>",
 			"[+25]% Strength <when attacking>",
 			"Must set up to ranged attack",
@@ -1518,10 +1519,10 @@
 		"replaces": "Missile Rover",
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 2,
-		"range": 4,
+		"range": 5,
 		"strength": 15,
 		"rangedStrength": 25,
-		"cost": 50,
+		"cost": 270,
 		"requiredTech": "Strike Drones",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -1560,12 +1561,11 @@
 		"range": 4,
 		"strength": 25,
 		"rangedStrength": 40,
-		"cost": 330,
+		"cost": 440,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
 		"uniques": [
-			"[+25]% Strength <when attacking>",
-			"[+200]% Strength <vs cities> <when attacking>",
+			"[+225]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack",
 			"[+1] Sight",
 			"Can see over obstacles",
@@ -1630,7 +1630,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 3,
 		"strength": 40,
-		"cost": 385,
+		"cost": 440,
 		"requiredResource": "Digital Storage Space",
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
@@ -1667,7 +1667,7 @@
 		"range": 3,
 		"strength": 30,
 		"rangedStrength": 35,
-		"cost": 440,
+		"cost": 380,
 		"requiredTech": "Metamaterials",
 		"uniques": [
 			"[+25]% Strength <when attacking>",
@@ -1710,7 +1710,7 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"[+50]% Strength <vs [Mech] units>",
 			"[+20]% Strength <vs [Siege] units>",
-			"[+25]% to Flank Attack bonuses",
+			"[+20]% to Flank Attack bonuses",
 			"May withdraw before melee ([50]%)",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [3] [Digital Storage Space]",
@@ -1743,7 +1743,7 @@
 		"range": 2,
 		"strength": 45,
 		"rangedStrength": 45,
-		"cost": 495,
+		"cost": 490,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -1770,7 +1770,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Shamsy Electric Technologies' mainline mech, the Mnewer is equipped with not only SET's signature electric weaponry, but also a desert mobility system that allows them to move faster on deserts."
+				"text": "Alliance medium range mech unit that has a role of support unit. Cyclops is equiped with heavy mech armor, command and recon console and heavy laser magna."
 			}
 		]
 	},
@@ -1778,19 +1778,19 @@
 		"name": "Guardian Knight",
 		"unitType": "Close Range Mech",
 		"uniqueTo": "Alliance of New Federation",
-		"movement": 4,
-		"strength": 45,
-		"cost": 490,
+		"movement": 3,
+		"strength": 40,
+		"cost": 440,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Titanium",
 		"uniques": [
 			"Mech",
 			"Can move after attacking",
 			"Ignores terrain cost",
-			"[+25]% Strength <vs [Mech] units> ",
-			"[+25]% Strength <vs [Armored] units>",
-			"[+50]% Strength <when defending>",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+25]% Strength <vs [Mech] units> <when defending>",
+			"[+25]% Strength <vs [Armored] units> <when defending>",
+			"[+25]% Strength <when defending>",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
 			"May enter foreign tiles without open borders",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [5] [Titanium]",
@@ -1808,7 +1808,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
+				"text": "Alliance close range mech unit that has a role of frontline unit. Guardian Knight is equiped with heavy hardenend mech armor, Energy hardened shield and heavy auto cannon."
 			}
 		]
 	},
@@ -1827,7 +1827,7 @@
 			"Ignores terrain cost",
 			"[+50]% Strength <vs [Mech] units> ",
 			"[+50]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Helicopter] units>",
+			"[+100]% Strength <vs [Air] units>",
 			"[+75]% Strength <when defending>",
 			"May Paradrop up to [10] tiles from inside friendly territory",
 			"Ignores terrain cost",
@@ -1847,7 +1847,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
+				"text": "Alliance close range mech unit that has a role of frontline unit. Seraphim is equiped with energy heavy hardenend mech armor, orbital jumpjet bosster and heavy particle projectile canon."
 			}
 		]
 	},
@@ -1859,7 +1859,7 @@
 		"range": 3,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 495,
+		"cost": 660,
 		"requiredTech": "Combat Mechas",
 		"requiredResource": "Antimatter",
 		"uniques": [
@@ -1868,7 +1868,7 @@
 			"Ignores terrain cost",
 			"[+75]% Strength <vs [Mech] units>",
 			"[+50]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Helicopter] units>",
+			"[+100]% Strength <vs [Air] units>",
 			"[+25]% to Flank Attack bonuses",
 			"Invisible to non-adjacent units",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
@@ -1888,7 +1888,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Shamsy Electric Technologies' mainline mech, the Mnewer is equipped with not only SET's signature electric weaponry, but also a desert mobility system that allows them to move faster on deserts."
+				"text": "Alliance long range mech unit that has a role of destroyer unit. Annihilator is equiped with heavy hardenend mech armor, rotary hyper railcannon and void signature stealth system."
 			}
 		]
 	},
@@ -1898,7 +1898,7 @@
 		"uniqueTo": "Alliance of New Federation",
 		"movement": 4,
 		"strength": 50,
-		"cost": 660,
+		"cost": 550,
 		"requiredTech": "Fusion Power",
 		"requiredResource": "Titanium",
 		"uniques": [
@@ -1909,9 +1909,8 @@
 			"[+25]% Strength <when attacking>",
 			"[+25]% Strength <vs [Mech] units> ",
 			"[+25]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Helicopter] units>",
 			"[+50]% Strength <vs [Air] units>",
-			"[+75]% Strength <vs cities>",
+			"[+100]% Strength <vs cities>",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [5] [Titanium]",
 			"Consumes [1] [Promethine]",
@@ -1928,7 +1927,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Alliance close range mech unit that has a role of frontline unit. Atlas is equiped with heavy hardenend mech armor and particle projectile canon."
+				"text": "Alliance close range mech unit that has a role of frontline unit. Warhammer is equiped with hardenend mech armor, hyper gauss cannon and particle projectile canon."
 			}
 		]
 	}
