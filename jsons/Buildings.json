@@ -3,7 +3,7 @@
 		"name": "X Workshop",
 		"uniqueTo": "Alliance of New Federation",
 		"cost": 25,
-	        "maintenance": 3,
+	        "maintenance": 1,
 		"science": 1,
 	  	"percentStatBonus": { "science": 5 },
 		"production": 2,
@@ -16,13 +16,11 @@
 			"[+1 Science, +2 Production] <starting from the [Realization era]>",
 			"[+1 Science, +2 Production] <starting from the [Transcendental era]>",
 			"[+1 Science, +2 Production] <starting from the [Singularity era]>",
-			"[+1 Science] from all [Science] buildings [in this city]",
-			"[+2 Production] from all [Production] buildings [in this city]",
 			"[+50]% Production when constructing [All] wonders [in this city]",
 			"[+50]% Production when constructing [Military] units [in this city] <when at war>",
 			"[+50]% Production when constructing [All] buildings [in this city] <when not at war>"
 		],
-		"requiredTech": "Computing",
+		"requiredTech": "Engineering",
 		"civilopediaText": [
 			{
 				"text": "Alliance modular research and production facility that can be improved according technology breakthrough."
@@ -30,25 +28,55 @@
 		]
 	},
 	{
-		"name": "MFEB Building",
+		"name": "Unite Network",
+		"uniqueTo": "Alliance of New Federation",
+		"cost": 10,
+		"maintenance": 1,
+		"happiness": 3,
+		"culture": 3,
+		"science": 3,
+		"production": 5,
+		"percentStatBonus": { "culture": 20 },
+		"uniques": [
+			"[+5] Unit Supply per [3] population [in all cities]",
+			"[+1 Production] from all [Production] buildings"],
+			"[+1 Science] from all [Science] buildings"],
+			"[+1 Gold] from all [Gold] buildings"],
+			"[+1 Culture] from all [Culture] buildings"],
+			"[+1 Faith] from all [Faith] buildings"],
+			"[+1 Happiness] from all [Happiness] buildings"],
+			"[-50]% Unhappiness from [Population] [in all cities]",
+			"[-50]% Culture cost of natural border growth [in all cities]",
+			"Can only be built [in capital city]"
+		],
+		"requiredTech": "Computing",
+		"civilopediaText": [
+			{
+				"text": "Unite Newtwork is special Quantum Hive Mind network connection that came from The Alliance homeland. Unite Network connecting every citizen brainwave and synchronizing them to hive mind like connection."
+			}
+		]
+	},
+	{
+		"name": "Supply Center",
 		"uniqueTo": "Alliance of New Federation",
 		"cost": 50,
-		"maintenance": 3,
+		"maintenance": 1,
+		"gold": 3,
 		"happiness": 1,
-		"culture": 2,
-		"percentStatBonus": { "culture": 10 },
+		"percentStatBonus": { "gold": 10 },
 		"uniques": [
-			"[+5] Unit Supply per [2] population [in this city]",
-			"[-50]% Unhappiness from [Population] [in this city]",
-			"[-50]% Culture cost of natural border growth [in this city]",
-			"[+1 happiness] from all [happiness] buildings [in this city]",
-			"[+2 culture] from all [culture] buildings [in this city]",
-			"New [Military] units start with [30] Experience [in this city]"
+			"[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold, +1 Happiness] from [Bonus resource] tiles [in this city]",
+			"[+1 Gold, +1 Production] from [Strategic resource] tiles [in this city]",
+			"[+1 Gold, +1 Production] from [Mineral] tiles [in this city]",
+			"[+1 Gold, +1 Production] from [Metallic] tiles [in this city]",
+			"[+1 Gold, +1 Happiness] from [Gemlike] tiles [in this city]",
+			"[+1 Gold, +1 Culture] from [Fauna] tiles [in this city]"
 		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
 			{
-				"text": "Alliance special department to increase military force."
+				"text": "Alliance supply base responsible for distributing resource and money from nearby territory."
 			}
 		]
 	}
