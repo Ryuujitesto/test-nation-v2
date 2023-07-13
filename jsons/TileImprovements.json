@@ -56,57 +56,6 @@
 		]
 	},
         {
-		"name": "Supply Center",
-		"uniqueTo": "Alliance of New Federation",
-		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Hill",
-			"Snow",
-			"Tundra",
-			"Forest",
-			"Jungle",
-			"Flood plains",
-			"Miasma",
-  		        "Marsh",
-			"Mycelium"
-		],
-		"gold": 2,
-		"culture": 1,
-		"happiness": 1,
-		"production": 1,
-		"turnsToBuild": 5,
-		"techRequired": "Computing",
-		"uniques": [
-			"[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]",
-			"[+1 Gold, +1 Happiness] from [Bonus resource] tiles [in this city]",
-			"[+1 Gold, +1 Production] from [Strategic resource] tiles [in this city]",
-			"[+1 Gold, +1 Production] from [Mineral] tiles [in this city]",
-			"[+1 Gold, +1 Production] from [Metallic] tiles [in this city]",
-			"[+1 Gold, +1 Happiness] from [Gemlike] tiles [in this city]",
-			"[+1 Gold, +1 Culture] from [Fauna] tiles [in this city]",
-			"Provides [1] [Digital Storage Space]",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "T",
-		"civilopediaText": [
-
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Supply Center",
-				"imageSize": 64
-			},
-
-			{
-				"Separator": true
-			},
-			{
-				"text": "Alliance supply base responsible for distributing resource and money from nearby territory."
-			}
-		]
-	},
-	{
 		"name": "Airfield Base",
 		"uniqueTo": "Alliance of New Federation",
 		"terrainsCanBeBuiltOn": [
