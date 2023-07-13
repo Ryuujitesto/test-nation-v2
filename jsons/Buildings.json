@@ -39,12 +39,12 @@
 		"percentStatBonus": { "culture": 20 },
 		"uniques": [
 			"[+5] Unit Supply per [3] population [in all cities]",
-			"[+1 Production] from all [Production] buildings"],
-			"[+1 Science] from all [Science] buildings"],
-			"[+1 Gold] from all [Gold] buildings"],
-			"[+1 Culture] from all [Culture] buildings"],
-			"[+1 Faith] from all [Faith] buildings"],
-			"[+1 Happiness] from all [Happiness] buildings"],
+			"[+1 Production] from all [Production] buildings",
+			"[+1 Science] from all [Science] buildings",
+			"[+1 Gold] from all [Gold] buildings",
+			"[+1 Culture] from all [Culture] buildings",
+			"[+1 Faith] from all [Faith] buildings",
+			"[+1 Happiness] from all [Happiness] buildings",
 			"[-50]% Unhappiness from [Population] [in all cities]",
 			"[-50]% Culture cost of natural border growth [in all cities]",
 			"Can only be built [in capital city]"
