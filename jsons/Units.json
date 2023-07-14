@@ -336,6 +336,7 @@
 			"[+25]% Strength <vs [Mech] units>  <when attacking>",
 			"[+10]% to Flank Attack bonuses",
 			"May withdraw before melee ([50]%)",
+			"[-30]% tile improvement construction time",
 			"Can move after attacking",
 			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [3] [Titanium]",
@@ -445,7 +446,9 @@
 		"upgradesTo": "Caiman MK 2",
 		"uniques": [
 		        "[+25]% Strength <vs [Water] units> <when attacking>",
+			"[-15]% tile improvement construction time",
 			"Can build [Water] improvements on tiles",
+			"May create improvements on water resources <for [2] movement>",
 			"Consumes [1] [Titanium]",
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
@@ -519,7 +522,9 @@
 		"uniques": [
 		        "[+25]% Strength <vs [Water] units>",
 			"May withdraw before melee ([75]%)",
+			"[-30]% tile improvement construction time",
 			"Can build [Water] improvements on tiles",
+			"May create improvements on water resources <for [2] movement>",
 			"Only available <in cities with a [Floating Harbor]>",
 			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
