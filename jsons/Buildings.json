@@ -4,10 +4,10 @@
 		"uniqueTo": "Alliance of New Federation",
 		"cost": 25,
 	        "maintenance": 1,
-		"science": 1,
-	  	"percentStatBonus": { "science": 5 },
-		"production": 2,
-	  	"percentStatBonus": { "production": 10 },
+		"science": 2,
+	  	"percentStatBonus": { "science": 10 },
+		"production": 3,
+	  	"percentStatBonus": { "production": 15 },
 		"uniques": [
 			"[+1 Science, +2 Production] <starting from the [Landfall era]>",
 			"[+1 Science, +2 Production] <starting from the [Exploration era]>",
@@ -18,7 +18,9 @@
 			"[+1 Science, +2 Production] <starting from the [Singularity era]>",
 			"[+50]% Production when constructing [All] wonders [in this city]",
 			"[+50]% Production when constructing [Military] units [in this city] <when at war>",
-			"[+50]% Production when constructing [All] buildings [in this city] <when not at war>"
+			"[+50]% Production when constructing [All] buildings [in this city] <when not at war>",
+			"Provides [1] [Digital Storage Space]",
+			"[2] free [Worker] units appear"
 		],
 		"requiredTech": "Engineering",
 		"civilopediaText": [
@@ -37,17 +39,21 @@
 		"culture": 3,
 		"science": 3,
 		"production": 5,
-		"percentStatBonus": { "culture": 20 },
+		"percentStatBonus": { "science": 15 },
+		"percentStatBonus": { "production": 25 },
+		"percentStatBonus": { "culture": 15 },
 		"uniques": [
 			"[+5] Unit Supply per [3] population [in all cities]",
-			"[+1 Production] from all [Production] buildings",
+			"[+2 Production] from all [Production] buildings",
 			"[+1 Science] from all [Science] buildings",
 			"[+1 Gold] from all [Gold] buildings",
 			"[+1 Culture] from all [Culture] buildings",
 			"[+1 Faith] from all [Faith] buildings",
 			"[+1 Happiness] from all [Happiness] buildings",
 			"[-50]% Unhappiness from [Population] [in all cities]",
-			"[-50]% Culture cost of natural border growth [in all cities]"
+			"[-50]% Culture cost of natural border growth [in all cities]",
+			"Provides [3] [Digital Storage Space]",
+			"[1] free [Worker] units appear"
 		],
 		"requiredTech": "Computing",
 		"civilopediaText": [
@@ -63,7 +69,7 @@
 		"maintenance": 1,
 		"gold": 3,
 		"happiness": 1,
-		"percentStatBonus": { "gold": 10 },
+		"percentStatBonus": { "gold": 15 },
 		"uniques": [
 			"[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]",
 			"[+1 Gold, +1 Happiness] from [Bonus resource] tiles [in this city]",
@@ -71,7 +77,8 @@
 			"[+1 Gold, +1 Production] from [Mineral] tiles [in this city]",
 			"[+1 Gold, +1 Production] from [Metallic] tiles [in this city]",
 			"[+1 Gold, +1 Happiness] from [Gemlike] tiles [in this city]",
-			"[+1 Gold, +1 Culture] from [Fauna] tiles [in this city]"
+			"[+1 Gold, +1 Culture] from [Fauna] tiles [in this city]",
+			"Provides [1] [Digital Storage Space]"
 		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
