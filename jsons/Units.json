@@ -73,7 +73,6 @@
                         "[+25]% Strength <vs [Helicopter] units> <when attacking>",
 			"[+25]% Strength <vs [Drone] units> <when attacking>",
 			"[+25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Colonial Patrol Station] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Blue Infantry","United Will"],
@@ -267,8 +266,7 @@
 			"[+25]% Strength <vs [Infantry] units>",
                         "[+25]% Strength <vs [Stealth Infantry] units>",
                         "[+25]% Strength <vs [Sniper] units>",
-                        "Only available <in cities with a [Rover Storage]>",
-			"Consumes [2] [Titanium]",
+                        "Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["United Will"],
@@ -338,7 +336,6 @@
 			"May withdraw before melee ([50]%)",
 			"[-30]% tile improvement construction time",
 			"Can move after attacking",
-			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [3] [Titanium]",
 			"Consumes [1] [Promethine]",
 			"Never appears as a Barbarian unit"
@@ -566,7 +563,6 @@
 			"May attack when embarked",
 			"Ignores terrain cost",
 			"Can move after attacking",
-			"Only available <in cities with a [Mechanized Unit Facility]>",
 			"Consumes [2] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
