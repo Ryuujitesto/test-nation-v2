@@ -55,47 +55,11 @@
 			}
 		]
 	},
-        {
-		"name": "Airfield Base",
-		"uniqueTo": "Alliance of New Federation",
-		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow",
-			"Forest",
-			"Jungle",
-			"Mycelium"
-		],
-		"turnsToBuild": 5,
-		"techRequired": "Aeronautics",
-		"uniques": [
-			"Can carry [4] [Aerocraft] units",
-			"[Aerocraft] Units in this tile heal [15] HP per turn when healing",
-			"Gives a defensive bonus of [10]%",
-			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built"
-		],
-		"shortcutKey": "O",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Airfield Base",
-				"imageSize": 64
-			},
-			{
-				"Separator": true
-			},
-			{ "text": "Alliance base equiped with four-way airline for aerocraft to take off and repair station for aerocraft." }
-		]
-	},
 	{
 		"name": "AGM Base",
 		"uniqueTo": "Alliance of New Federation",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean", "Lakes"],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Xenogeology",
 		"uniques": [
@@ -103,7 +67,7 @@
 			"[+2 Production] from [Ocean] tiles [in this city]",
 			"[+1 Production] from [Lakes] tiles [in this city]",
 			"[+1 Production] <after discovering [Efficient Extraction Methods]>",
-			"[+1 Production] <after discovering [Crust Fracking]>",
+			"[+2 Production] <after discovering [Crust Fracking]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+4 Production, +4 Gold]"
 		],
